@@ -1,17 +1,16 @@
 ---
 layout: post
-title: Hélène's List Of Lists
+title: Hélène's Galleries
 date: 2025-06-09
-permalink: /lists/
+permalink: /galleries/
 ---
 
 <ul>
-  {% assign lists = site.data.post_meta.lists %}
-  {% for filename in lists %}
+  {% assign galleries = site.data.post_meta.galleries %}
+  {% for filename in galleries %}
     {% assign post = site.posts | where_exp: "p", "p.path contains filename" | first %}
     {% if post %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      <small>{{ post.subtitle }}</small>
     {% endif %}
   {% endfor %}
 </ul>

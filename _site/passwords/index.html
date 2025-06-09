@@ -7,6 +7,8 @@
 <meta name="generator" content="Jekyll v3.10.0" />
 <meta property="og:title" content="Hélène’s Suggestions Of Passwords" />
 <meta property="og:locale" content="en_US" />
+<meta name="description" content="12345 Copy" />
+<meta property="og:description" content="12345 Copy" />
 <link rel="canonical" href="http://localhost:4000/passwords/" />
 <meta property="og:url" content="http://localhost:4000/passwords/" />
 <meta property="og:site_name" content="Hélène dans la lune" />
@@ -15,7 +17,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hélène’s Suggestions Of Passwords" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-09T00:00:00+02:00","datePublished":"2025-06-09T00:00:00+02:00","headline":"Hélène’s Suggestions Of Passwords","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/passwords/"},"url":"http://localhost:4000/passwords/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-09T00:00:00+02:00","datePublished":"2025-06-09T00:00:00+02:00","description":"12345 Copy","headline":"Hélène’s Suggestions Of Passwords","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/passwords/"},"url":"http://localhost:4000/passwords/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Hélène dans la lune" /></head>
 <body><header class="site-header" role="banner">
@@ -30,7 +32,7 @@
           </span>
         </label>
 
-        <div class="trigger"><a class="page-link" href="/">fatal system error</a></div>
+        <div class="trigger"></div>
       </nav></div>
 </header>
 <main class="page-content" aria-label="Content">
@@ -45,7 +47,29 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    
+    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1em;">
+  <pre id="copy-target-1" style="margin: 0;">12345</pre>
+  <button onclick="copyText('copy-target-1')">Copy</button>
+</div>
+
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1em;">
+  <pre id="copy-target-2" style="margin: 0;">123456</pre>
+  <button onclick="copyText('copy-target-2')">Copy</button>
+</div>
+
+<script>
+function copyText(id) {
+  var el = document.getElementById(id);
+  if (!el) {
+    alert("Element not found.");
+    return;
+  }
+  navigator.clipboard.writeText(el.innerText)
+    .then(() => alert("Copied!"))
+    .catch(err => alert("Copy failed: " + err));
+}
+</script>
+
 
   </div><a class="u-url" href="/passwords/" hidden></a>
 </article>
