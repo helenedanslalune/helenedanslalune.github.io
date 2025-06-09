@@ -1,6 +1,5 @@
-title: Hélène
-description: (dans la lune)
-theme: jekyll-theme-minimal
+title: Hélène dans la lune
+theme: minima
 permalink: pretty
 nav:
  - title: Home
