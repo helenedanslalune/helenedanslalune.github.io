@@ -1,4 +1,10 @@
 title: Hélène
 description: (dans la lune)
 theme: jekyll-theme-minimal
+permalink: pretty
+nav:
+ - title: Home
+   url: /
+ - title: Predictions
+   url: /predictions
 
