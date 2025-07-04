@@ -15,6 +15,11 @@ permalink: /passwords/
   <button onclick="copyText('copy-target-2')">Copy</button>
 </div>
 
+<div style="display: flex; align-items: center; gap: 10px; margin-bottom: 1em;">
+  <pre id="copy-target-3" style="margin: 0;">MrHandsome</pre>
+  <button onclick="copyText('copy-target-3')">Copy</button>
+</div>
+
 <script>
 function copyText(id) {
   var el = document.getElementById(id);

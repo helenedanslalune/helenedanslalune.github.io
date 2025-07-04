@@ -1,4 +1,5 @@
 /** Reset some basic elements */
+@import url("https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;700&display=swap");
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
@@ -194,3 +195,137 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vg { color: #008080; }
 .highlight .vi { color: #008080; }
 .highlight .il { color: #099; }
+
+/* Custom color palette - expandable list */
+:root { --slate-blue: #6A5ACD; --burgundy: #800020; --deep-pink: #E75480; --dark-green: #123524; /* Box color rotation - add new colors here */ --box-color-1: #6A5ACD; /* slate-blue */ --box-color-2: #800020; /* burgundy */ --box-color-3: #E75480; /* deep-pink */ --box-color-4: #123524; /* dark-green */ --box-color-5: #8B4513; /* saddle-brown */ --box-color-6: #483D8B; /* dark-slate-blue */ --box-color-7: #00fff2; /* cyan */ --box-color-8: #ff0062; /* hot-pink */ --box-color-9: #90EE90; /* light-green (mixed with white) */ --box-color-10: #FFB6C1; /* light-pink (mixed with white) */ /* Contrasting text colors for each box */ --text-color-1: #fff; /* white on slate-blue */ --text-color-2: #fff; /* white on burgundy */ --text-color-3: #000; /* black on deep-pink */ --text-color-4: #fff; /* white on dark-green */ --text-color-5: #fff; /* white on saddle-brown */ --text-color-6: #fff; /* white on dark-slate-blue */ --text-color-7: #000; /* black on cyan */ --text-color-8: #fff; /* white on hot-pink */ --text-color-9: #000; /* black on light-green */ --text-color-10: #000; /* black on light-pink */ }
+
+/* Custom fonts with text stroke effect */
+/* Impact font for headings */
+h1, h2, h3, h4, h5, h6, .site-title { font-family: Impact, 'Arial Black', sans-serif !important; text-transform: uppercase !important; font-weight: 900 !important; font-style: normal !important; color: white !important; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000 !important; }
+
+/* Times New Roman for body text - elegant italic */
+body, p, li, .post-content { font-family: 'Times New Roman', serif !important; font-style: italic !important; font-weight: bold !important; font-size: 1.1rem !important; color: #000 !important; text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff !important; }
+
+/* Background styling with tree image */
+body { background-image: url("/assets/images/prettify/tree.jpeg") !important; background-size: cover !important; background-position: center !important; background-attachment: fixed !important; background-repeat: no-repeat !important; min-height: 100vh !important; }
+
+/* Header styling with colors only */
+.site-header { background-color: var(--slate-blue) !important; border-top: 5px solid var(--deep-pink) !important; border-bottom: 3px solid var(--burgundy) !important; }
+
+/* Main content area styling */
+.page-content { background-color: rgba(128, 0, 32, 0.1) !important; backdrop-filter: blur(2px) !important; border-radius: 15px !important; margin: 20px !important; padding: 30px !important; box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important; }
+
+/* Post list styling */
+.post-list li { background-color: rgba(231, 84, 128, 0.2) !important; border-radius: 10px !important; padding: 20px !important; margin-bottom: 20px !important; border: 2px solid rgba(255, 255, 255, 0.3) !important; }
+
+/* Links styling */
+a { color: white !important; text-decoration: underline !important; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000 !important; }
+
+a:hover { color: var(--deep-pink) !important; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 0 10px var(--deep-pink) !important; }
+
+/* Site title styling - no underline */
+.site-title { font-size: 2.5rem !important; letter-spacing: 2px !important; text-decoration: none !important; }
+
+.site-title:hover { text-decoration: none !important; }
+
+/* Navigation styling - black with white border */
+.site-nav .page-link { color: #000 !important; font-family: 'Times New Roman', serif !important; font-style: normal !important; font-weight: bold !important; text-transform: none !important; font-size: 1.1rem !important; text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff !important; }
+
+/* Footer styling */
+.site-footer { background-color: rgba(18, 53, 36, 0.9) !important; border-top: 3px solid var(--deep-pink) !important; }
+
+/* Subtitle styling */
+.subtitle { color: rgba(255, 255, 255, 0.8) !important; font-size: 1.1rem !important; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000 !important; }
+
+/* Remove decorative overlay - using tree as main background */
+/* .wrapper::before removed */
+/* Enhanced post content */
+.post-content h2, .post-content h3, .post-content h4 { border-bottom: 2px solid var(--deep-pink) !important; padding-bottom: 10px !important; margin-top: 30px !important; }
+
+/* Image styling */
+img { border-radius: 10px !important; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) !important; border: 2px solid rgba(255, 255, 255, 0.3) !important; }
+
+/* Hide dates */
+.post-meta { display: none !important; }
+
+/* Post link styles moved below */
+/* Heading sizes with h3 as Apple Chancery */
+h1 { font-size: 2.2rem !important; }
+
+h2 { font-size: 1.8rem !important; }
+
+h3 { font-size: 1.5rem !important; font-family: 'Apple Chancery', cursive !important; font-style: italic !important; font-weight: normal !important; }
+
+h4 { font-size: 1.3rem !important; }
+
+h5 { font-size: 1.1rem !important; }
+
+h6 { font-size: 1rem !important; }
+
+/* Hide duplicate footer name and contact list */
+.footer-heading { display: none !important; }
+
+.contact-list { display: none !important; }
+
+/* Compact painting-like layout - reduced margins */
+.wrapper { max-width: 1200px !important; padding: 10px !important; }
+
+.page-content { background: none !important; border-radius: 15px !important; margin: 10px auto !important; padding: 15px !important; box-shadow: none !important; max-width: 1150px !important; min-height: auto !important; }
+
+/* Post grid layout - side-by-side centered (default) */
+.post-grid { display: flex !important; flex-wrap: wrap !important; justify-content: center !important; align-items: flex-start !important; gap: 20px !important; margin: 0 !important; padding: 0 !important; }
+
+/* Main page layout - three boxes in a row */
+body.home .post-grid { display: flex !important; flex-direction: row !important; justify-content: space-evenly !important; align-items: center !important; height: 60vh !important; width: 100% !important; gap: 30px !important; flex-wrap: nowrap !important; }
+
+body.home .post-box { position: relative !important; width: 300px !important; height: auto !important; flex: 0 0 300px !important; min-height: 200px !important; }
+
+/* Individual post boxes - filled with colors and minimal padding */
+.post-box { border-radius: 15px !important; padding: 10px !important; border: 2px solid rgba(255, 255, 255, 0.3) !important; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important; transition: all 0.3s ease !important; position: relative !important; overflow: hidden !important; min-height: auto !important; flex: 0 1 260px !important; text-align: center !important; display: flex !important; flex-direction: column !important; justify-content: center !important; align-items: center !important; cursor: pointer !important; }
+
+/* Color rotation for boxes - black text with white text-shadow */
+.post-box:nth-child(10n+1) { background-color: var(--box-color-1) !important; }
+
+.post-box:nth-child(10n+2) { background-color: var(--box-color-2) !important; }
+
+.post-box:nth-child(10n+3) { background-color: var(--box-color-3) !important; }
+
+.post-box:nth-child(10n+4) { background-color: var(--box-color-4) !important; }
+
+.post-box:nth-child(10n+5) { background-color: var(--box-color-5) !important; }
+
+.post-box:nth-child(10n+6) { background-color: var(--box-color-6) !important; }
+
+.post-box:nth-child(10n+7) { background-color: var(--box-color-7) !important; }
+
+.post-box:nth-child(10n+8) { background-color: var(--box-color-8) !important; }
+
+.post-box:nth-child(10n+9) { background-color: var(--box-color-9) !important; }
+
+.post-box:nth-child(10n+0) { background-color: var(--box-color-10) !important; }
+
+/* All post box text is black - no outline */
+.post-box { color: #000 !important; }
+
+.post-box .post-box-link, .post-box .subtitle { color: #000 !important; text-shadow: none !important; }
+
+.post-box:hover { transform: translateY(-5px) scale(1.02) !important; box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5) !important; border-color: rgba(255, 255, 255, 0.8) !important; filter: brightness(1.1) !important; }
+
+/* Post box links - larger elegant Times New Roman italic */
+.post-box-link { font-size: 2rem !important; font-family: 'Times New Roman', serif !important; font-style: italic !important; font-weight: bold !important; text-transform: none !important; text-decoration: none !important; display: block !important; margin-bottom: 6px !important; line-height: 1.1 !important; text-align: center !important; padding: 3px !important; }
+
+.post-box:hover .post-box-link, .post-box:hover .subtitle { color: #fff !important; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 0 10px rgba(255, 255, 255, 0.8) !important; transform: scale(1.05) !important; }
+
+/* Legacy post-list support */
+.post-list { list-style: none !important; margin-left: 0 !important; padding-left: 0 !important; }
+
+.post-link { font-size: 2.5rem !important; font-family: Impact, 'Arial Black', sans-serif !important; text-transform: uppercase !important; font-weight: 900 !important; font-style: normal !important; color: white !important; text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000, -4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000, 4px 4px 0 #000 !important; text-decoration: none !important; display: block !important; margin-bottom: 15px !important; }
+
+/* Modern site header */
+.site-header { background-color: var(--slate-blue) !important; border-top: 8px solid var(--deep-pink) !important; border-bottom: 5px solid var(--burgundy) !important; padding: 20px 0 !important; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3) !important; }
+
+/* Compact footer */
+.site-footer { background-color: rgba(18, 53, 36, 0.8) !important; border-top: 3px solid var(--deep-pink) !important; padding: 20px 0 !important; backdrop-filter: blur(10px) !important; margin-top: 30px !important; }
+
+/* Subtitle improvements - larger and elegant */
+.subtitle { font-size: 1.2rem !important; font-family: 'Times New Roman', serif !important; font-style: italic !important; font-weight: normal !important; margin-top: 2px !important; text-align: center !important; padding: 0 3px !important; line-height: 1.2 !important; opacity: 0.9 !important; }

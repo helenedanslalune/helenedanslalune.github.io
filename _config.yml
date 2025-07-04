@@ -4,6 +4,5 @@ permalink: pretty
 nav:
  - title: Home
    url: /
- - title: Predictions
-   url: /predictions
+exclude: [CLAUDE.md]
 

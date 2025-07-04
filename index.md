@@ -2,20 +2,26 @@
 layout: default
 ---
 
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  document.body.classList.add('home');
+});
+</script>
+
 {% assign menu_posts = site.data.post_meta["menu"] %}
 
-<ul>
+<div class="post-grid">
   {% for post in site.posts %}
     {% assign filename = post.path | split: "/" | last %}
     {% if menu_posts contains filename %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
+      <div class="post-box">
+        <a href="{{ post.url }}" class="post-box-link">{{ post.title }}</a>
         {% if post.subtitle %}
-          <p class="subtitle" style="font-size: 1rem; color: #666;">{{ post.subtitle }}</p>
+          <p class="subtitle">{{ post.subtitle }}</p>
         {% endif %}
-      </li>
+      </div>
     {% endif %}
   {% endfor %}
-</ul>
+</div>
 
 
