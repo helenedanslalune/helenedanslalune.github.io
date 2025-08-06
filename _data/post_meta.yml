@@ -1,21 +1,21 @@
 menu:
- - 2025-06-09-lists.md      
- - 2025-06-09-takes.md     
  - 2025-06-09-galleries.md
-
+ - 2025-06-09-lists.md      
 
 lists:    
  - 2025-06-09-passwords.md 
  - 2025-06-09-wiki.md
  - 2025-06-09-predictions.md 
  - 2025-06-09-sidequests.md
- - 2025-06-09-purchases.md
+ #- 2025-06-09-purchases.md
+ - 2025-06-09-takes.md     
 
 galleries:
  - 2025-06-09-LNs.md
  - 2025-06-09-carnivore.md
+ - 2025-08-06-memento.md
 
 takes:
  - 2025-06-09-advice.md          
- - 2025-06-09-hotmen.md  
+ #- 2025-06-09-hotmen.md  
  - 2025-06-09-boomers.md     

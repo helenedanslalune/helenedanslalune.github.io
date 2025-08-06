@@ -5,22 +5,24 @@
 
 /* Custom color palette - expandable list */
 :root {
-  --slate-blue: #6A5ACD;
-  --burgundy: #800020;
+  --slate-blue: #8B7FDB; /* original #6A5ACD mixed with white */
+  --burgundy: #A6334F; /* original #800020 mixed with white */
   --deep-pink: #E75480;
   --dark-green: #123524;
   
   /* Box color rotation - add new colors here */
-  --box-color-1: #6A5ACD; /* slate-blue */
-  --box-color-2: #800020; /* burgundy */
+  --box-color-1: #8B7FDB; /* brightened slate-blue */
+  --box-color-2: #A6334F; /* brightened burgundy */
   --box-color-3: #E75480; /* deep-pink */
   --box-color-4: #123524; /* dark-green */
   --box-color-5: #8B4513; /* saddle-brown */
   --box-color-6: #483D8B; /* dark-slate-blue */
   --box-color-7: #00fff2; /* cyan */
   --box-color-8: #ff0062; /* hot-pink */
-  --box-color-9: #90EE90; /* light-green (mixed with white) */
-  --box-color-10: #FFB6C1; /* light-pink (mixed with white) */
+  --box-color-9: #90EE90; /* light-green */
+  --box-color-10: #FFB6C1; /* light-pink */
+  --box-color-11: #B19CD9; /* lighter slate-blue */
+  --box-color-12: #CC6B85; /* lighter burgundy */
   
   /* Contrasting text colors for each box */
   --text-color-1: #fff; /* white on slate-blue */
@@ -33,6 +35,8 @@
   --text-color-8: #fff; /* white on hot-pink */
   --text-color-9: #000; /* black on light-green */
   --text-color-10: #000; /* black on light-pink */
+  --text-color-11: #000; /* black on lighter slate-blue */
+  --text-color-12: #fff; /* white on lighter burgundy */
 }
 
 /* Custom fonts with text stroke effect */
@@ -87,14 +91,21 @@ body {
   border-bottom: 3px solid var(--burgundy) !important;
 }
 
-/* Main content area styling */
+/* Main content area styling - no background */
 .page-content {
-  background-color: rgba(128, 0, 32, 0.1) !important;
-  backdrop-filter: blur(2px) !important;
+  background-color: transparent !important;
+  backdrop-filter: none !important;
   border-radius: 15px !important;
   margin: 20px !important;
   padding: 30px !important;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3) !important;
+  box-shadow: none !important;
+}
+
+/* No background for individual articles and galleries */
+.post .page-content {
+  background-color: transparent !important;
+  backdrop-filter: none !important;
+  box-shadow: none !important;
 }
 
 /* Post list styling */
@@ -135,6 +146,15 @@ a:hover {
 }
 
 .site-title:hover {
+  text-decoration: none !important;
+}
+
+/* Page title header styling - no underline */
+.page-title-header {
+  text-decoration: none !important;
+}
+
+.page-title-header:hover {
   text-decoration: none !important;
 }
 
@@ -223,13 +243,20 @@ h6 { font-size: 1rem !important; }
 }
 
 .page-content {
-  background: none !important;
+  background-color: transparent !important;
   border-radius: 15px !important;
   margin: 10px auto !important;
   padding: 15px !important;
   box-shadow: none !important;
   max-width: 1150px !important;
   min-height: auto !important;
+}
+
+/* No background for individual articles and galleries */
+.post .page-content {
+  background-color: transparent !important;
+  backdrop-filter: none !important;
+  box-shadow: none !important;
 }
 
 /* Post grid layout - side-by-side centered (default) */
@@ -282,17 +309,19 @@ body.home .post-box {
   cursor: pointer !important;
 }
 
-/* Color rotation for boxes - black text with white text-shadow */
-.post-box:nth-child(10n+1) { background-color: var(--box-color-1) !important; }
-.post-box:nth-child(10n+2) { background-color: var(--box-color-2) !important; }
-.post-box:nth-child(10n+3) { background-color: var(--box-color-3) !important; }
-.post-box:nth-child(10n+4) { background-color: var(--box-color-4) !important; }
-.post-box:nth-child(10n+5) { background-color: var(--box-color-5) !important; }
-.post-box:nth-child(10n+6) { background-color: var(--box-color-6) !important; }
-.post-box:nth-child(10n+7) { background-color: var(--box-color-7) !important; }
-.post-box:nth-child(10n+8) { background-color: var(--box-color-8) !important; }
-.post-box:nth-child(10n+9) { background-color: var(--box-color-9) !important; }
-.post-box:nth-child(10n+0) { background-color: var(--box-color-10) !important; }
+/* Color rotation for boxes - expanded to 12 colors */
+.post-box:nth-child(12n+1) { background-color: var(--box-color-1) !important; }
+.post-box:nth-child(12n+2) { background-color: var(--box-color-2) !important; }
+.post-box:nth-child(12n+3) { background-color: var(--box-color-3) !important; }
+.post-box:nth-child(12n+4) { background-color: var(--box-color-4) !important; }
+.post-box:nth-child(12n+5) { background-color: var(--box-color-5) !important; }
+.post-box:nth-child(12n+6) { background-color: var(--box-color-6) !important; }
+.post-box:nth-child(12n+7) { background-color: var(--box-color-7) !important; }
+.post-box:nth-child(12n+8) { background-color: var(--box-color-8) !important; }
+.post-box:nth-child(12n+9) { background-color: var(--box-color-9) !important; }
+.post-box:nth-child(12n+10) { background-color: var(--box-color-10) !important; }
+.post-box:nth-child(12n+11) { background-color: var(--box-color-11) !important; }
+.post-box:nth-child(12n+0) { background-color: var(--box-color-12) !important; }
 
 /* All post box text is black - no outline */
 .post-box {
