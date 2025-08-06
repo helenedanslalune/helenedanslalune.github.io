@@ -1,6 +1,7 @@
 title: Hélène dans la lune
 theme: minima
 permalink: pretty
+future: true
 nav:
  - title: Home
    url: /

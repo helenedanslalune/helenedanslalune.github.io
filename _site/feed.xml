@@ -1,199 +1,499 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-06T23:08:28+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hélène dans la lune</title><entry><title type="html">Hélène’s Invocation To Memento Mori Hard</title><link href="http://localhost:4000/LNs/" rel="alternate" type="text/html" title="Hélène’s Invocation To Memento Mori Hard" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/memento</id><content type="html" xml:base="http://localhost:4000/LNs/"><![CDATA[<div class="image-gallery">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-07T00:41:28+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hélène dans la lune</title><entry><title type="html">Hélène’s Invocation To Memento Mori Hard</title><link href="http://localhost:4000/memento/" rel="alternate" type="text/html" title="Hélène’s Invocation To Memento Mori Hard" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/memento</id><content type="html" xml:base="http://localhost:4000/memento/"><![CDATA[<div class="image-gallery">
   
   
-    <img src="/assets/images/memento_mori/IMG_2550.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
   
-    <img src="/assets/images/memento_mori/IMG_4224.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
   
-    <img src="/assets/images/memento_mori/IMG_4333.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
+    <img src="/assets/images/memento_mori/IMG_2550.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_2550.JPG', 0)" data-index="0" />
   
-    <img src="/assets/images/memento_mori/IMG_5649.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
+    <img src="/assets/images/memento_mori/IMG_4224.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_4224.JPG', 1)" data-index="1" />
   
-    <img src="/assets/images/memento_mori/IMG_6114.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
+    <img src="/assets/images/memento_mori/IMG_4333.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_4333.JPG', 2)" data-index="2" />
   
-    <img src="/assets/images/memento_mori/IMG_6137.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
+    <img src="/assets/images/memento_mori/IMG_5649.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_5649.JPG', 3)" data-index="3" />
   
-    <img src="/assets/images/memento_mori/IMG_6396.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
+    <img src="/assets/images/memento_mori/IMG_6114.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_6114.JPG', 4)" data-index="4" />
   
-    <img src="/assets/images/memento_mori/IMG_6751.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
+    <img src="/assets/images/memento_mori/IMG_6137.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_6137.JPG', 5)" data-index="5" />
   
-    <img src="/assets/images/memento_mori/IMG_7350.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
+    <img src="/assets/images/memento_mori/IMG_6396.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_6396.JPG', 6)" data-index="6" />
   
-    <img src="/assets/images/memento_mori/IMG_7380.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
+    <img src="/assets/images/memento_mori/IMG_6751.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_6751.JPG', 7)" data-index="7" />
   
-    <img src="/assets/images/memento_mori/IMG_7387.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
+    <img src="/assets/images/memento_mori/IMG_7350.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_7350.JPG', 8)" data-index="8" />
   
-    <img src="/assets/images/memento_mori/IMG_7405.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
+    <img src="/assets/images/memento_mori/IMG_7380.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_7380.JPG', 9)" data-index="9" />
   
-    <img src="/assets/images/memento_mori/IMG_7418.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
+    <img src="/assets/images/memento_mori/IMG_7387.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_7387.JPG', 10)" data-index="10" />
   
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Hélène’s Correct and Based Advice</title><link href="http://localhost:4000/advice/" rel="alternate" type="text/html" title="Hélène’s Correct and Based Advice" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/advice</id><content type="html" xml:base="http://localhost:4000/advice/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Hélène’s Correct and Based Reactionary Take On Boomers</title><link href="http://localhost:4000/reactionary/" rel="alternate" type="text/html" title="Hélène’s Correct and Based Reactionary Take On Boomers" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/boomers</id><content type="html" xml:base="http://localhost:4000/reactionary/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Hélène’s Extensive Library Of Bloodlusty Yet Irresistibly Cute Carnivore Pictures</title><link href="http://localhost:4000/carnivores/" rel="alternate" type="text/html" title="Hélène’s Extensive Library Of Bloodlusty Yet Irresistibly Cute Carnivore Pictures" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/carnivore</id><content type="html" xml:base="http://localhost:4000/carnivores/"><![CDATA[<div class="image-gallery">
+    <img src="/assets/images/memento_mori/IMG_7405.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_7405.JPG', 11)" data-index="11" />
   
-  
-    <img src="/assets/images/carnivores/IMG_2616.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_2624.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_3800.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_4199.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_4503.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_4517.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_4540.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_4572.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_4584.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_4695.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_4742.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_4765.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_4767.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_4775.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_4949.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5048.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5100.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5148.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5152.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5162.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5164.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5274.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5435.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5503.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5525.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5527.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5528.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5532.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5542.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5543.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5544.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5723.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5724.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_5950.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6015.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6057.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6090.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6197.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6244.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6264.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6462.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6483.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6484.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6506.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6509.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6529.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6579.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6595.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6667.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6699.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6842.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6858.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6879.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6884.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6890.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6899.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6902%202.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6902.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6907.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6948.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6949.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_6952.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
-  
-    <img src="/assets/images/carnivores/IMG_7044.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" />
+    <img src="/assets/images/memento_mori/IMG_7418.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_7418.JPG', 12)" data-index="12" />
   
 </div>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+  <button class="lightbox-nav prev" onclick="prevImage()">&lsaquo;</button>
+  <button class="lightbox-nav next" onclick="nextImage()">&rsaquo;</button>
+  <img class="lightbox-content" id="lightbox-img" />
+</div>
+
+<script>
+let currentImageIndex = 0;
+let galleryImages = [];
+
+function initializeGallery() {
+  // Collect all gallery images
+  const imgs = document.querySelectorAll('.image-gallery img');
+  galleryImages = Array.from(imgs).map(img => ({
+    src: img.src,
+    index: parseInt(img.dataset.index)
+  }));
+}
+
+function openLightbox(src, index) {
+  const lightbox = document.getElementById('lightbox');
+  const img = document.getElementById('lightbox-img');
+  
+  currentImageIndex = index;
+  
+  // Show lightbox and set image
+  lightbox.style.display = 'block';
+  img.src = src;
+  
+  // Update navigation buttons
+  updateNavButtons();
+  
+  // Trigger animation after a small delay
+  setTimeout(() => {
+    lightbox.classList.add('show');
+  }, 10);
+}
+
+function closeLightbox() {
+  const lightbox = document.getElementById('lightbox');
+  
+  // Remove show class for exit animation
+  lightbox.classList.remove('show');
+  
+  // Hide lightbox after animation completes
+  setTimeout(() => {
+    lightbox.style.display = 'none';
+  }, 300);
+}
+
+function prevImage() {
+  if (currentImageIndex > 0) {
+    currentImageIndex--;
+    changeImage();
+  }
+}
+
+function nextImage() {
+  if (currentImageIndex < galleryImages.length - 1) {
+    currentImageIndex++;
+    changeImage();
+  }
+}
+
+function changeImage() {
+  const img = document.getElementById('lightbox-img');
+  
+  // Simple image change
+  img.src = galleryImages[currentImageIndex].src;
+  updateNavButtons();
+}
+
+function updateNavButtons() {
+  const prevBtn = document.querySelector('.lightbox-nav.prev');
+  const nextBtn = document.querySelector('.lightbox-nav.next');
+  
+  prevBtn.disabled = currentImageIndex === 0;
+  nextBtn.disabled = currentImageIndex === galleryImages.length - 1;
+}
+
+// Initialize gallery when DOM is loaded
+document.addEventListener('DOMContentLoaded', initializeGallery);
+
+// Keyboard navigation
+document.addEventListener('keydown', function(event) {
+  if (document.getElementById('lightbox').style.display === 'block') {
+    switch(event.key) {
+      case 'Escape':
+        closeLightbox();
+        break;
+      case 'ArrowLeft':
+        prevImage();
+        break;
+      case 'ArrowRight':
+        nextImage();
+        break;
+    }
+  }
+});
+
+// Prevent lightbox from closing when clicking the image itself
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('lightbox').addEventListener('click', function(e) {
+    if (e.target === this) {
+      closeLightbox();
+    }
+  });
+});
+</script>]]></content><author><name></name></author><summary type="html"><![CDATA[&times; &lsaquo; &rsaquo;]]></summary></entry><entry><title type="html">Hélène’s Correct and Based Advice</title><link href="http://localhost:4000/advice/" rel="alternate" type="text/html" title="Hélène’s Correct and Based Advice" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/advice</id><content type="html" xml:base="http://localhost:4000/advice/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Hélène’s Correct and Based Reactionary Take On Boomers</title><link href="http://localhost:4000/reactionary/" rel="alternate" type="text/html" title="Hélène’s Correct and Based Reactionary Take On Boomers" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/boomers</id><content type="html" xml:base="http://localhost:4000/reactionary/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Hélène’s Extensive Library Of Bloodlusty Yet Irresistibly Cute Carnivore Pictures</title><link href="http://localhost:4000/carnivores/" rel="alternate" type="text/html" title="Hélène’s Extensive Library Of Bloodlusty Yet Irresistibly Cute Carnivore Pictures" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/carnivore</id><content type="html" xml:base="http://localhost:4000/carnivores/"><![CDATA[<div class="image-gallery">
+  
+  
+  
+  
+    <img src="/assets/images/carnivores/IMG_2616.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_2616.JPG', 0)" data-index="0" />
+  
+    <img src="/assets/images/carnivores/IMG_2624.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_2624.JPG', 1)" data-index="1" />
+  
+    <img src="/assets/images/carnivores/IMG_3800.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_3800.JPG', 2)" data-index="2" />
+  
+    <img src="/assets/images/carnivores/IMG_4199.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4199.JPG', 3)" data-index="3" />
+  
+    <img src="/assets/images/carnivores/IMG_4503.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4503.JPG', 4)" data-index="4" />
+  
+    <img src="/assets/images/carnivores/IMG_4517.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4517.JPG', 5)" data-index="5" />
+  
+    <img src="/assets/images/carnivores/IMG_4540.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4540.JPG', 6)" data-index="6" />
+  
+    <img src="/assets/images/carnivores/IMG_4572.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4572.JPG', 7)" data-index="7" />
+  
+    <img src="/assets/images/carnivores/IMG_4584.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4584.PNG', 8)" data-index="8" />
+  
+    <img src="/assets/images/carnivores/IMG_4695.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4695.JPG', 9)" data-index="9" />
+  
+    <img src="/assets/images/carnivores/IMG_4742.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4742.JPG', 10)" data-index="10" />
+  
+    <img src="/assets/images/carnivores/IMG_4765.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4765.JPG', 11)" data-index="11" />
+  
+    <img src="/assets/images/carnivores/IMG_4767.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4767.JPG', 12)" data-index="12" />
+  
+    <img src="/assets/images/carnivores/IMG_4775.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4775.JPG', 13)" data-index="13" />
+  
+    <img src="/assets/images/carnivores/IMG_4949.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4949.JPG', 14)" data-index="14" />
+  
+    <img src="/assets/images/carnivores/IMG_5048.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5048.JPG', 15)" data-index="15" />
+  
+    <img src="/assets/images/carnivores/IMG_5100.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5100.JPG', 16)" data-index="16" />
+  
+    <img src="/assets/images/carnivores/IMG_5148.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5148.JPG', 17)" data-index="17" />
+  
+    <img src="/assets/images/carnivores/IMG_5152.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5152.JPG', 18)" data-index="18" />
+  
+    <img src="/assets/images/carnivores/IMG_5162.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5162.JPG', 19)" data-index="19" />
+  
+    <img src="/assets/images/carnivores/IMG_5164.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5164.JPG', 20)" data-index="20" />
+  
+    <img src="/assets/images/carnivores/IMG_5274.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5274.JPG', 21)" data-index="21" />
+  
+    <img src="/assets/images/carnivores/IMG_5435.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5435.JPG', 22)" data-index="22" />
+  
+    <img src="/assets/images/carnivores/IMG_5503.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5503.JPG', 23)" data-index="23" />
+  
+    <img src="/assets/images/carnivores/IMG_5525.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5525.JPG', 24)" data-index="24" />
+  
+    <img src="/assets/images/carnivores/IMG_5527.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5527.JPG', 25)" data-index="25" />
+  
+    <img src="/assets/images/carnivores/IMG_5528.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5528.JPG', 26)" data-index="26" />
+  
+    <img src="/assets/images/carnivores/IMG_5532.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5532.JPG', 27)" data-index="27" />
+  
+    <img src="/assets/images/carnivores/IMG_5542.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5542.JPG', 28)" data-index="28" />
+  
+    <img src="/assets/images/carnivores/IMG_5543.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5543.JPG', 29)" data-index="29" />
+  
+    <img src="/assets/images/carnivores/IMG_5544.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5544.JPG', 30)" data-index="30" />
+  
+    <img src="/assets/images/carnivores/IMG_5723.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5723.JPG', 31)" data-index="31" />
+  
+    <img src="/assets/images/carnivores/IMG_5724.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5724.JPG', 32)" data-index="32" />
+  
+    <img src="/assets/images/carnivores/IMG_5950.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5950.JPG', 33)" data-index="33" />
+  
+    <img src="/assets/images/carnivores/IMG_6015.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6015.JPG', 34)" data-index="34" />
+  
+    <img src="/assets/images/carnivores/IMG_6057.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6057.JPG', 35)" data-index="35" />
+  
+    <img src="/assets/images/carnivores/IMG_6090.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6090.JPG', 36)" data-index="36" />
+  
+    <img src="/assets/images/carnivores/IMG_6197.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6197.JPG', 37)" data-index="37" />
+  
+    <img src="/assets/images/carnivores/IMG_6244.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6244.JPG', 38)" data-index="38" />
+  
+    <img src="/assets/images/carnivores/IMG_6264.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6264.JPG', 39)" data-index="39" />
+  
+    <img src="/assets/images/carnivores/IMG_6462.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6462.JPG', 40)" data-index="40" />
+  
+    <img src="/assets/images/carnivores/IMG_6483.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6483.JPG', 41)" data-index="41" />
+  
+    <img src="/assets/images/carnivores/IMG_6484.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6484.JPG', 42)" data-index="42" />
+  
+    <img src="/assets/images/carnivores/IMG_6506.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6506.JPG', 43)" data-index="43" />
+  
+    <img src="/assets/images/carnivores/IMG_6509.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6509.JPG', 44)" data-index="44" />
+  
+    <img src="/assets/images/carnivores/IMG_6529.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6529.JPG', 45)" data-index="45" />
+  
+    <img src="/assets/images/carnivores/IMG_6579.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6579.PNG', 46)" data-index="46" />
+  
+    <img src="/assets/images/carnivores/IMG_6595.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6595.JPG', 47)" data-index="47" />
+  
+    <img src="/assets/images/carnivores/IMG_6667.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6667.PNG', 48)" data-index="48" />
+  
+    <img src="/assets/images/carnivores/IMG_6699.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6699.JPG', 49)" data-index="49" />
+  
+    <img src="/assets/images/carnivores/IMG_6842.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6842.JPG', 50)" data-index="50" />
+  
+    <img src="/assets/images/carnivores/IMG_6858.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6858.JPG', 51)" data-index="51" />
+  
+    <img src="/assets/images/carnivores/IMG_6879.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6879.JPG', 52)" data-index="52" />
+  
+    <img src="/assets/images/carnivores/IMG_6884.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6884.JPG', 53)" data-index="53" />
+  
+    <img src="/assets/images/carnivores/IMG_6890.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6890.JPG', 54)" data-index="54" />
+  
+    <img src="/assets/images/carnivores/IMG_6899.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6899.JPG', 55)" data-index="55" />
+  
+    <img src="/assets/images/carnivores/IMG_6902%202.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6902%202.JPG', 56)" data-index="56" />
+  
+    <img src="/assets/images/carnivores/IMG_6902.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6902.JPG', 57)" data-index="57" />
+  
+    <img src="/assets/images/carnivores/IMG_6907.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6907.JPG', 58)" data-index="58" />
+  
+    <img src="/assets/images/carnivores/IMG_6948.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6948.JPG', 59)" data-index="59" />
+  
+    <img src="/assets/images/carnivores/IMG_6949.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6949.JPG', 60)" data-index="60" />
+  
+    <img src="/assets/images/carnivores/IMG_6952.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6952.JPG', 61)" data-index="61" />
+  
+    <img src="/assets/images/carnivores/IMG_7044.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_7044.JPG', 62)" data-index="62" />
+  
+</div>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+  <button class="lightbox-nav prev" onclick="prevImage()">&lsaquo;</button>
+  <button class="lightbox-nav next" onclick="nextImage()">&rsaquo;</button>
+  <img class="lightbox-content" id="lightbox-img" />
+</div>
+
+<script>
+let currentImageIndex = 0;
+let galleryImages = [];
+
+function initializeGallery() {
+  // Collect all gallery images
+  const imgs = document.querySelectorAll('.image-gallery img');
+  galleryImages = Array.from(imgs).map(img => ({
+    src: img.src,
+    index: parseInt(img.dataset.index)
+  }));
+}
+
+function openLightbox(src, index) {
+  const lightbox = document.getElementById('lightbox');
+  const img = document.getElementById('lightbox-img');
+  
+  currentImageIndex = index;
+  
+  // Show lightbox and set image
+  lightbox.style.display = 'block';
+  img.src = src;
+  
+  // Update navigation buttons
+  updateNavButtons();
+  
+  // Trigger animation after a small delay
+  setTimeout(() => {
+    lightbox.classList.add('show');
+  }, 10);
+}
+
+function closeLightbox() {
+  const lightbox = document.getElementById('lightbox');
+  
+  // Remove show class for exit animation
+  lightbox.classList.remove('show');
+  
+  // Hide lightbox after animation completes
+  setTimeout(() => {
+    lightbox.style.display = 'none';
+  }, 300);
+}
+
+function prevImage() {
+  if (currentImageIndex > 0) {
+    currentImageIndex--;
+    changeImage();
+  }
+}
+
+function nextImage() {
+  if (currentImageIndex < galleryImages.length - 1) {
+    currentImageIndex++;
+    changeImage();
+  }
+}
+
+function changeImage() {
+  const img = document.getElementById('lightbox-img');
+  
+  // Simple image change
+  img.src = galleryImages[currentImageIndex].src;
+  updateNavButtons();
+}
+
+function updateNavButtons() {
+  const prevBtn = document.querySelector('.lightbox-nav.prev');
+  const nextBtn = document.querySelector('.lightbox-nav.next');
+  
+  prevBtn.disabled = currentImageIndex === 0;
+  nextBtn.disabled = currentImageIndex === galleryImages.length - 1;
+}
+
+// Initialize gallery when DOM is loaded
+document.addEventListener('DOMContentLoaded', initializeGallery);
+
+// Keyboard navigation
+document.addEventListener('keydown', function(event) {
+  if (document.getElementById('lightbox').style.display === 'block') {
+    switch(event.key) {
+      case 'Escape':
+        closeLightbox();
+        break;
+      case 'ArrowLeft':
+        prevImage();
+        break;
+      case 'ArrowRight':
+        nextImage();
+        break;
+    }
+  }
+});
+
+// Prevent lightbox from closing when clicking the image itself
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('lightbox').addEventListener('click', function(e) {
+    if (e.target === this) {
+      closeLightbox();
+    }
+  });
+});
+</script>
 
 <h3>And when your bones are scattered all across the sand</h3>
 <h3>I'll find that I have loved you all along</h3>
 <h3>And I'm lonely</h3>
 <h3>And I'm hungry for more</h3>
-<h3>Carnivore</h3>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Hélène’s Galleries</title><link href="http://localhost:4000/galleries/" rel="alternate" type="text/html" title="Hélène’s Galleries" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/galleries</id><content type="html" xml:base="http://localhost:4000/galleries/"><![CDATA[<div class="post-grid">
+<h3>Carnivore</h3>]]></content><author><name></name></author><summary type="html"><![CDATA[&times; &lsaquo; &rsaquo;]]></summary></entry><entry><title type="html">Hélène’s Galleries</title><link href="http://localhost:4000/galleries/" rel="alternate" type="text/html" title="Hélène’s Galleries" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/galleries</id><content type="html" xml:base="http://localhost:4000/galleries/"><![CDATA[<div class="post-grid">
   
   
     
+      
+      
     
-      <div class="post-box">
-        <a href="/LNs/" class="post-box-link">Hélène's LNs</a>
-        
-          <p class="subtitle">That Unambiguously Represent Her Deepest Self</p>
-        
-      </div>
+      
+      
     
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/LNs/" class="post-box" style="text-decoration: none; display: block;">
+          <span class="post-box-link">Hélène's LNs</span>
+          
+            <p class="subtitle">That Unambiguously Represent Her Deepest Self</p>
+          
+        </a>
+        
   
     
+      
+      
     
-      <div class="post-box">
-        <a href="/carnivores/" class="post-box-link">Hélène's Extensive Library Of Bloodlusty Yet Irresistibly Cute Carnivore Pictures</a>
-        
-          <p class="subtitle">Screenshotted For Your Viewing Pleasure</p>
-        
-      </div>
+      
+      
     
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
+      
+      
+        <a href="/carnivores/" class="post-box" style="text-decoration: none; display: block;">
+          <span class="post-box-link">Hélène's Extensive Library Of Bloodlusty Yet Irresistibly Cute Carnivore Pictures</span>
+          
+            <p class="subtitle">Screenshotted For Your Viewing Pleasure</p>
+          
+        </a>
+        
   
     
-    
-      <div class="post-box">
-        <a href="/LNs/" class="post-box-link">Hélène's Invocation To Memento Mori Hard</a>
+      
+      
+        <a href="/memento/" class="post-box" style="text-decoration: none; display: block;">
+          <span class="post-box-link">Hélène's Invocation To Memento Mori Hard</span>
+          
+            <p class="subtitle">If Ur Depressed U Should Def Check This Out</p>
+          
+        </a>
         
-          <p class="subtitle">If Ur Depressed U Should Def Check This Out</p>
-        
-      </div>
-    
   
 </div>]]></content><author><name></name></author><summary type="html"><![CDATA[Hélène's LNs That Unambiguously Represent Her Deepest Self Hélène's Extensive Library Of Bloodlusty Yet Irresistibly Cute Carnivore Pictures Screenshotted For Your Viewing Pleasure Hélène's Invocation To Memento Mori Hard If Ur Depressed U Should Def Check This Out]]></summary></entry><entry><title type="html">Hélène’s Correct and Based Take On What Makes Men Hot</title><link href="http://localhost:4000/hotmen/" rel="alternate" type="text/html" title="Hélène’s Correct and Based Take On What Makes Men Hot" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/hotmen</id><content type="html" xml:base="http://localhost:4000/hotmen/"><![CDATA[<h1> STOP SHAVING YOUR ARMPITS!!! <h1>
 </h1></h1>]]></content><author><name></name></author><summary type="html"><![CDATA[STOP SHAVING YOUR ARMPITS!!!]]></summary></entry><entry><title type="html">Hélène’s List Of Lists</title><link href="http://localhost:4000/lists/" rel="alternate" type="text/html" title="Hélène’s List Of Lists" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/lists</id><content type="html" xml:base="http://localhost:4000/lists/"><![CDATA[<div class="post-grid">
@@ -201,48 +501,48 @@
   
     
     
-      <div class="post-box">
-        <a href="/passwords/" class="post-box-link">Hélène's Suggestion Of Passwords</a>
+      <a href="/passwords/" class="post-box" style="text-decoration: none; display: block;">
+        <span class="post-box-link">Hélène's Suggestion Of Passwords</span>
         
           <p class="subtitle">That You Could Use For Your Main Bank Account Maybe</p>
         
-      </div>
+      </a>
     
   
     
     
-      <div class="post-box">
-        <a href="/wiki/" class="post-box-link">Hélène's Favourite Wikipedia Articles</a>
+      <a href="/wiki/" class="post-box" style="text-decoration: none; display: block;">
+        <span class="post-box-link">Hélène's Favourite Wikipedia Articles</span>
         
-      </div>
+      </a>
     
   
     
     
-      <div class="post-box">
-        <a href="/predictions/" class="post-box-link">Hélène's Predictions Of Future Events</a>
+      <a href="/predictions/" class="post-box" style="text-decoration: none; display: block;">
+        <span class="post-box-link">Hélène's Predictions Of Future Events</span>
         
           <p class="subtitle">That She Is Dishing Out Like It's Fucking Nothing</p>
         
-      </div>
+      </a>
     
   
     
     
-      <div class="post-box">
-        <a href="/sidequests/" class="post-box-link">Hélène's Sidequests</a>
+      <a href="/sidequests/" class="post-box" style="text-decoration: none; display: block;">
+        <span class="post-box-link">Hélène's Sidequests</span>
         
           <p class="subtitle">That Have Monopolized Her Attention And Distracted Her From Urgent And Important Matters</p>
         
-      </div>
+      </a>
     
   
     
     
-      <div class="post-box">
-        <a href="/takes/" class="post-box-link">Hélène's Correct and Based Takes</a>
+      <a href="/takes/" class="post-box" style="text-decoration: none; display: block;">
+        <span class="post-box-link">Hélène's Correct and Based Takes</span>
         
-      </div>
+      </a>
     
   
 </div>]]></content><author><name></name></author><summary type="html"><![CDATA[Hélène's Suggestion Of Passwords That You Could Use For Your Main Bank Account Maybe Hélène's Favourite Wikipedia Articles Hélène's Predictions Of Future Events That She Is Dishing Out Like It's Fucking Nothing Hélène's Sidequests That Have Monopolized Her Attention And Distracted Her From Urgent And Important Matters Hélène's Correct and Based Takes]]></summary></entry><entry><title type="html">Hélène’s Suggestion Of Passwords</title><link href="http://localhost:4000/passwords/" rel="alternate" type="text/html" title="Hélène’s Suggestion Of Passwords" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/passwords</id><content type="html" xml:base="http://localhost:4000/passwords/"><![CDATA[<div id="password-container"></div>

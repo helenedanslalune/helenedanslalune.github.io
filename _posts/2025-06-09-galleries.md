@@ -8,14 +8,17 @@ permalink: /galleries/
 <div class="post-grid">
   {% assign galleries = site.data.post_meta.galleries %}
   {% for filename in galleries %}
-    {% assign post = site.posts | where_exp: "p", "p.path contains filename" | first %}
-    {% if post %}
-      <div class="post-box">
-        <a href="{{ post.url }}" class="post-box-link">{{ post.title }}</a>
-        {% if post.subtitle %}
-          <p class="subtitle">{{ post.subtitle }}</p>
-        {% endif %}
-      </div>
-    {% endif %}
+    {% for post in site.posts %}
+      {% assign post_filename = post.path | split: "/" | last %}
+      {% if post_filename == filename %}
+        <a href="{{ post.url }}" class="post-box" style="text-decoration: none; display: block;">
+          <span class="post-box-link">{{ post.title }}</span>
+          {% if post.subtitle %}
+            <p class="subtitle">{{ post.subtitle }}</p>
+          {% endif %}
+        </a>
+        {% break %}
+      {% endif %}
+    {% endfor %}
   {% endfor %}
 </div>

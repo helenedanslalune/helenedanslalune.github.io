@@ -14,12 +14,12 @@ document.addEventListener('DOMContentLoaded', function() {
   {% for post in site.posts %}
     {% assign filename = post.path | split: "/" | last %}
     {% if menu_posts contains filename %}
-      <div class="post-box">
-        <a href="{{ post.url }}" class="post-box-link">{{ post.title }}</a>
+      <a href="{{ post.url }}" class="post-box" style="text-decoration: none; display: block;">
+        <span class="post-box-link">{{ post.title }}</span>
         {% if post.subtitle %}
           <p class="subtitle">{{ post.subtitle }}</p>
         {% endif %}
-      </div>
+      </a>
     {% endif %}
   {% endfor %}
 </div>

@@ -197,7 +197,7 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .il { color: #099; }
 
 /* Custom color palette - expandable list */
-:root { --slate-blue: #8B7FDB; /* original #6A5ACD mixed with white */ --burgundy: #A6334F; /* original #800020 mixed with white */ --deep-pink: #E75480; --dark-green: #123524; /* Box color rotation - add new colors here */ --box-color-1: #8B7FDB; /* brightened slate-blue */ --box-color-2: #A6334F; /* brightened burgundy */ --box-color-3: #E75480; /* deep-pink */ --box-color-4: #123524; /* dark-green */ --box-color-5: #8B4513; /* saddle-brown */ --box-color-6: #483D8B; /* dark-slate-blue */ --box-color-7: #00fff2; /* cyan */ --box-color-8: #ff0062; /* hot-pink */ --box-color-9: #90EE90; /* light-green */ --box-color-10: #FFB6C1; /* light-pink */ --box-color-11: #B19CD9; /* lighter slate-blue */ --box-color-12: #CC6B85; /* lighter burgundy */ /* Contrasting text colors for each box */ --text-color-1: #fff; /* white on slate-blue */ --text-color-2: #fff; /* white on burgundy */ --text-color-3: #000; /* black on deep-pink */ --text-color-4: #fff; /* white on dark-green */ --text-color-5: #fff; /* white on saddle-brown */ --text-color-6: #fff; /* white on dark-slate-blue */ --text-color-7: #000; /* black on cyan */ --text-color-8: #fff; /* white on hot-pink */ --text-color-9: #000; /* black on light-green */ --text-color-10: #000; /* black on light-pink */ --text-color-11: #000; /* black on lighter slate-blue */ --text-color-12: #fff; /* white on lighter burgundy */ }
+:root { --slate-blue: #8B7FDB; /* original #6A5ACD mixed with white */ --burgundy: #A6334F; /* original #800020 mixed with white */ --deep-pink: #E75480; --dark-green: #123524; --banana-yellow: #FFD700; /* banana yellow */ /* Box color rotation - add new colors here */ --box-color-1: #8B7FDB; /* brightened slate-blue */ --box-color-2: #A6334F; /* brightened burgundy */ --box-color-3: #E75480; /* deep-pink */ --box-color-4: #123524; /* dark-green */ --box-color-5: #8B4513; /* saddle-brown */ --box-color-6: #483D8B; /* dark-slate-blue */ --box-color-7: #00fff2; /* cyan */ --box-color-8: #ff0062; /* hot-pink */ --box-color-9: #90EE90; /* light-green */ --box-color-10: #FFB6C1; /* light-pink */ --box-color-11: #B19CD9; /* lighter slate-blue */ --box-color-12: #CC6B85; /* lighter burgundy */ --box-color-13: #FFD700; /* banana-yellow */ /* Contrasting text colors for each box */ --text-color-1: #fff; /* white on slate-blue */ --text-color-2: #fff; /* white on burgundy */ --text-color-3: #000; /* black on deep-pink */ --text-color-4: #fff; /* white on dark-green */ --text-color-5: #fff; /* white on saddle-brown */ --text-color-6: #fff; /* white on dark-slate-blue */ --text-color-7: #000; /* black on cyan */ --text-color-8: #fff; /* white on hot-pink */ --text-color-9: #000; /* black on light-green */ --text-color-10: #000; /* black on light-pink */ --text-color-11: #000; /* black on lighter slate-blue */ --text-color-12: #fff; /* white on lighter burgundy */ --text-color-13: #000; /* black on banana-yellow */ }
 
 /* Custom fonts with text stroke effect */
 /* Impact font for headings */
@@ -255,6 +255,9 @@ img { border-radius: 10px !important; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) 
 
 /* Hide dates */
 .post-meta { display: none !important; }
+
+/* Hide all date-related elements */
+.post-header .post-meta, .dt-published, time { display: none !important; }
 
 /* Post link styles moved below */
 /* Heading sizes with h3 as Apple Chancery */
@@ -329,6 +332,13 @@ body.home .post-box { position: relative !important; width: 300px !important; he
 /* Post box links - larger elegant Times New Roman italic */
 .post-box-link { font-size: 2rem !important; font-family: 'Times New Roman', serif !important; font-style: italic !important; font-weight: bold !important; text-transform: none !important; text-decoration: none !important; display: block !important; margin-bottom: 6px !important; line-height: 1.1 !important; text-align: center !important; padding: 3px !important; }
 
+/* Ensure post-box links inherit proper styling when used as anchor tags */
+a.post-box { text-decoration: none !important; }
+
+a.post-box:hover { text-decoration: none !important; }
+
+a.post-box .post-box-link { color: inherit !important; text-decoration: none !important; }
+
 .post-box:hover .post-box-link, .post-box:hover .subtitle { color: #fff !important; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0 0 10px rgba(255, 255, 255, 0.8) !important; transform: scale(1.05) !important; }
 
 /* Legacy post-list support */
@@ -344,3 +354,40 @@ body.home .post-box { position: relative !important; width: 300px !important; he
 
 /* Subtitle improvements - larger and elegant */
 .subtitle { font-size: 1.2rem !important; font-family: 'Times New Roman', serif !important; font-style: italic !important; font-weight: normal !important; margin-top: 2px !important; text-align: center !important; padding: 0 3px !important; line-height: 1.2 !important; opacity: 0.9 !important; }
+
+/* Lightbox styles with animations */
+.lightbox { display: none; position: fixed; z-index: 999; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(255, 255, 255, 0.3); opacity: 0; transition: opacity 0.3s ease-in-out; }
+
+.lightbox.show { opacity: 1; }
+
+.lightbox-content { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%) scale(0.7); max-width: 60%; max-height: 70vh; object-fit: contain; border: 15px solid black !important; outline: 5px solid black !important; box-shadow: 0 0 0 15px black, 0 10px 30px rgba(0, 0, 0, 0.5); transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+
+.lightbox.show .lightbox-content { transform: translate(-50%, -50%) scale(1); }
+
+.lightbox-close { position: absolute; top: 20px; right: 30px; color: var(--banana-yellow); font-size: 120px; font-weight: bold; cursor: pointer; background: transparent; border: none; width: 180px; height: 180px; display: flex; align-items: center; justify-content: center; transition: all 0.3s ease; user-select: none; text-decoration: none; text-shadow: none; /* Fun font options - choose one by uncommenting */ font-family: 'Comic Sans MS', sans-serif; /* font-family: 'Papyrus', fantasy; */ /* font-family: 'Marker Felt', fantasy; */ /* font-family: 'Chalkduster', fantasy; */ /* font-family: 'Impact', 'Arial Black', sans-serif; */ }
+
+.lightbox-close:hover { transform: scale(1.2); color: var(--banana-yellow); text-decoration: none; text-shadow: 0 0 20px white, 0 0 40px white, 0 0 60px white; }
+
+/* Navigation arrows */
+.lightbox-nav { position: absolute; top: 50%; transform: translateY(-50%); background: transparent; color: var(--banana-yellow); border: none; font-size: 140px; font-weight: bold; width: 200px; height: 200px; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; user-select: none; z-index: 1001; text-decoration: none; text-shadow: none; /* Fun font options - choose one by uncommenting */ font-family: 'Comic Sans MS', sans-serif; /* font-family: 'Papyrus', fantasy; */ /* font-family: 'Marker Felt', fantasy; */ /* font-family: 'Chalkduster', fantasy; */ /* font-family: 'Impact', 'Arial Black', sans-serif; */ }
+
+.lightbox-nav:hover { transform: translateY(-50%) scale(1.2); color: var(--banana-yellow); text-decoration: none; text-shadow: 0 0 20px white, 0 0 40px white, 0 0 60px white; }
+
+.lightbox-nav.prev { left: 30px; }
+
+.lightbox-nav.next { right: 30px; }
+
+.lightbox-nav:disabled { opacity: 0.3; cursor: not-allowed; color: var(--banana-yellow); }
+
+.lightbox-nav:disabled:hover { transform: translateY(-50%) scale(1); color: var(--banana-yellow); opacity: 0.3; }
+
+/* Make gallery images clickable */
+.image-gallery img { cursor: pointer; transition: transform 0.2s; }
+
+.image-gallery img:hover { transform: scale(1.05); }
+
+/* Remove ALL underlines from everything */
+a, a:link, a:visited, a:hover, a:active, .post-box a, .post-box-link, .page-title-header, .site-title, .lightbox-close, .lightbox-nav, button, input[type="button"], input[type="submit"] { text-decoration: none !important; }
+
+/* Force no underlines on any element that might have them */
+* { text-decoration: none !important; }

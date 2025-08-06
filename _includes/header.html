@@ -4,8 +4,8 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     
-    <div style="display: flex; justify-content: space-between; align-items: center;">
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <div style="display: flex; justify-content: space-between; align-items: baseline; flex-wrap: nowrap;">
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}" style="flex-shrink: 0; white-space: nowrap;">{{ site.title | escape }}</a>
       
       {%- if page.title and page.title != site.title -%}
         {%- assign filename = page.path | split: "/" | last -%}
@@ -25,7 +25,7 @@
           {%- endif -%}
         {%- endfor -%}
         
-        <a href="{{ mother_url }}" class="page-title-header" style="color: white; font-family: Impact, 'Arial Black', sans-serif; font-size: 1.5rem; text-transform: uppercase; font-style: normal; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; text-decoration: none;">
+        <a href="{{ mother_url }}" class="page-title-header" style="color: white; font-family: Impact, 'Arial Black', sans-serif; font-size: 1.5rem; text-transform: uppercase; font-style: normal; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; text-decoration: none; flex-shrink: 1; text-align: right; max-width: 60%; overflow-wrap: break-word; line-height: 1.1;">
           {{ page.title }}
         </a>
       {%- endif -%}
