@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hélène's Extensive Library Of Bloodlusty Yet Irresistibly Cute Carnivore Pictures
+title: Hélène's Bloodlusty Yet Irresistibly Cute Carnivores
 subtitle: Screenshotted For Your Viewing Pleasure
 date: 2025-06-09
 permalink: /carnivores/
