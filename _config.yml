@@ -7,3 +7,9 @@ nav:
    url: /
 exclude: [CLAUDE.md]
 
+footer_links:
+  - name: "Instagram"
+    url: "https://instagram.com/helenedanslalune"
+  - name: "Disclaimer"
+    url: "/disclaimer/"
+

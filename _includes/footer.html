@@ -1,0 +1,24 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">{{ site.title | escape }}</li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul></div>
+
+      <div class="footer-col footer-col-3">
+        <p style="text-align: right; display: flex; justify-content: flex-end; align-items: center; height: 100%; gap: 20px; transform: translate(10px, 15px);"><a href="{{ site.footer_links[0].url }}" target="_blank"><i class="fab fa-instagram" style="font-size: 2rem;"></i></a> <a href="{{ site.footer_links[1].url }}"><i class="fas fa-shield-alt" style="font-size: 2rem;"></i></a></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
