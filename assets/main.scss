@@ -651,15 +651,200 @@ body > *,
   border-color: transparent !important;
 }
 
-/* Wiki page specific styling - Comic Sans MS regular */
-.wiki-box .post-box-link {
-  font-family: 'Comic Sans MS', cursive !important;
-  font-weight: normal !important;
-  font-style: normal !important;
-  font-size: 1.2rem !important;
+/* MODULAR BOX LAYOUT SYSTEM - Maximum Modularity with CSS Custom Properties */
+
+/* === LAYOUT PRESETS === */
+/* Use data-layout attribute to apply these presets */
+
+/* Scattered layout variables */
+[data-layout="scattered"] {
+  --layout-display: flex;
+  --layout-flex-wrap: wrap;
+  --layout-justify: flex-start;
+  --layout-align: flex-start;
+  --layout-gap: 15px;
+  --box-flex: 0 0 auto;
+  --box-width: auto;
+  --box-min-width: 120px;
+  --box-max-width: 200px;
+  --box-rotation: -1deg;
 }
 
-/* Wiki page - scattered layout */
+[data-layout="scattered"] .post-box:nth-child(2n) {
+  --box-rotation: 1deg;
+  --box-margin-top: 10px;
+}
+
+[data-layout="scattered"] .post-box:nth-child(3n) {
+  --box-rotation: -0.5deg;
+  --box-margin-top: -5px;
+}
+
+[data-layout="scattered"] .post-box:nth-child(4n) {
+  --box-rotation: 0.8deg;
+  --box-margin-top: 15px;
+}
+
+/* Masonry layout variables */
+[data-layout="masonry"] {
+  --layout-display: flex;
+  --layout-flex-direction: column;
+  --layout-flex-wrap: wrap;
+  --layout-height: 80vh;
+  --layout-gap: 20px;
+  --box-flex: 0 0 auto;
+  --box-width: 280px;
+  --box-rotation: 0deg;
+}
+
+/* Zigzag layout variables */
+[data-layout="zigzag"] {
+  --layout-display: flex;
+  --layout-flex-direction: column;
+  --layout-gap: 30px;
+  --box-width: 300px;
+  --box-rotation: 0deg;
+}
+
+[data-layout="zigzag"] .post-box:nth-child(odd) {
+  --box-align-self: flex-start;
+  --box-rotation: -2deg;
+}
+
+[data-layout="zigzag"] .post-box:nth-child(even) {
+  --box-align-self: flex-end;
+  --box-rotation: 2deg;
+}
+
+/* Grid layout variables (default) */
+[data-layout="grid"] {
+  --layout-display: flex;
+  --layout-flex-wrap: wrap;
+  --layout-justify: center;
+  --layout-align: flex-start;
+  --layout-gap: 20px;
+  --box-rotation: 0deg;
+}
+
+/* Cluster layout variables */
+[data-layout="cluster"] {
+  --layout-display: flex;
+  --layout-flex-wrap: wrap;
+  --layout-justify: space-around;
+  --layout-gap: 40px;
+  --box-rotation: 0deg;
+}
+
+[data-layout="cluster"] .post-box:nth-child(3n+1) {
+  --box-transform-x: -20px;
+  --box-transform-y: 10px;
+  --box-rotation: -3deg;
+}
+
+[data-layout="cluster"] .post-box:nth-child(3n+2) {
+  --box-transform-x: 15px;
+  --box-transform-y: -5px;
+  --box-rotation: 2deg;
+}
+
+[data-layout="cluster"] .post-box:nth-child(3n) {
+  --box-transform-x: -5px;
+  --box-transform-y: 20px;
+  --box-rotation: -1deg;
+}
+
+/* === STYLE PRESETS === */
+/* Use data-style attribute to apply these presets */
+
+/* Compact style variables */
+[data-style="compact"] {
+  --box-padding: 8px;
+  --title-font-size: 1.2rem;
+  --subtitle-font-size: 0.9rem;
+}
+
+/* Casual style variables */
+[data-style="casual"] {
+  --title-font-family: 'Comic Sans MS', cursive;
+  --title-font-weight: normal;
+  --title-font-style: normal;
+}
+
+/* Elegant style variables */
+[data-style="elegant"] {
+  --title-font-family: 'Times New Roman', serif;
+  --title-font-style: italic;
+  --title-font-weight: normal;
+  --title-font-size: 1.8rem;
+}
+
+/* Bold style variables */
+[data-style="bold"] {
+  --title-font-family: Impact, 'Arial Black', sans-serif;
+  --title-text-transform: uppercase;
+  --title-font-weight: 900;
+  --title-font-size: 1.4rem;
+}
+
+/* Minimal style variables */
+[data-style="minimal"] {
+  --box-border: 1px solid rgba(255, 255, 255, 0.2);
+  --box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --title-font-family: 'Helvetica', sans-serif;
+  --title-font-weight: 300;
+  --title-font-size: 1.3rem;
+}
+
+/* === LAYOUT CONTAINER RULES === */
+/* Apply the CSS variables to actual layout */
+[data-layout] {
+  display: var(--layout-display, flex) !important;
+  flex-direction: var(--layout-flex-direction, row) !important;
+  flex-wrap: var(--layout-flex-wrap, wrap) !important;
+  justify-content: var(--layout-justify, center) !important;
+  align-items: var(--layout-align, flex-start) !important;
+  gap: var(--layout-gap, 20px) !important;
+  height: var(--layout-height, auto) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* === BOX RULES === */
+/* Apply the CSS variables to actual boxes */
+[data-layout] .post-box {
+  flex: var(--box-flex, 0 1 260px) !important;
+  width: var(--box-width, auto) !important;
+  min-width: var(--box-min-width, auto) !important;
+  max-width: var(--box-max-width, none) !important;
+  padding: var(--box-padding, 10px) !important;
+  margin-top: var(--box-margin-top, 0) !important;
+  align-self: var(--box-align-self, auto) !important;
+  border: var(--box-border, 2px solid rgba(255, 255, 255, 0.3)) !important;
+  box-shadow: var(--box-shadow, 0 5px 15px rgba(0, 0, 0, 0.3)) !important;
+  transform: 
+    translate(
+      var(--box-transform-x, 0), 
+      var(--box-transform-y, 0)
+    ) 
+    rotate(var(--box-rotation, 0deg)) !important;
+}
+
+/* === TYPOGRAPHY RULES === */
+/* Apply the CSS variables to text elements */
+[data-style] .post-box-link {
+  font-family: var(--title-font-family, 'Times New Roman', serif) !important;
+  font-style: var(--title-font-style, italic) !important;
+  font-weight: var(--title-font-weight, bold) !important;
+  font-size: var(--title-font-size, 2rem) !important;
+  text-transform: var(--title-text-transform, none) !important;
+}
+
+[data-style] .subtitle {
+  font-size: var(--subtitle-font-size, 1.2rem) !important;
+}
+
+/* === LEGACY SUPPORT === */
+/* Keep existing wiki classes for backwards compatibility */
 .wiki-grid {
   display: flex !important;
   flex-wrap: wrap !important;
@@ -690,4 +875,11 @@ body > *,
 .wiki-box:nth-child(4n) {
   transform: rotate(0.8deg) !important;
   margin-top: 15px !important;
+}
+
+.wiki-box .post-box-link {
+  font-family: 'Comic Sans MS', cursive !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-size: 1.2rem !important;
 }/* Force rebuild */
