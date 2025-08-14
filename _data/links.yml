@@ -1,16 +1,10 @@
-# Links organized by category for the wiki/links page
-# Each category can contain multiple links with title, url, and optional description
-
-resources:
+links:
   - title: "Total Depravity"
     url: "https://en.wikipedia.org/wiki/Total_depravity"
   - title: "Silence"
     url: "https://en.wikipedia.org/wiki/Silence"
   - title: "List of adhesive tapes"
     url: "https://en.wikipedia.org/wiki/List_of_adhesive_tapes"
-
-
-tools:
   - title: "Kayfabe"
     url: "https://en.wikipedia.org/wiki/Kayfabe"
   - title: "Nick Clegg"
