@@ -1,33 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-07T00:41:28+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hélène dans la lune</title><entry><title type="html">Hélène’s Invocation To Memento Mori Hard</title><link href="http://localhost:4000/memento/" rel="alternate" type="text/html" title="Hélène’s Invocation To Memento Mori Hard" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/memento</id><content type="html" xml:base="http://localhost:4000/memento/"><![CDATA[<div class="image-gallery">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.10.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-08-14T18:55:38+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Hélène dans la lune</title><entry><title type="html">Framing the Wifi password</title><link href="http://localhost:4000/wifi/" rel="alternate" type="text/html" title="Framing the Wifi password" /><published>2025-08-14T00:00:00+02:00</published><updated>2025-08-14T00:00:00+02:00</updated><id>http://localhost:4000/wifi</id><content type="html" xml:base="http://localhost:4000/wifi/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Hélène’s Random Acts of Symmetry Breaking</title><link href="http://localhost:4000/symmetry/" rel="alternate" type="text/html" title="Hélène’s Random Acts of Symmetry Breaking" /><published>2025-08-14T00:00:00+02:00</published><updated>2025-08-14T00:00:00+02:00</updated><id>http://localhost:4000/symmetry</id><content type="html" xml:base="http://localhost:4000/symmetry/"><![CDATA[<div class="image-gallery">
   
   
   
-  
-    <img src="/assets/images/memento_mori/IMG_2550.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_2550.JPG', 0)" data-index="0" />
-  
-    <img src="/assets/images/memento_mori/IMG_4224.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_4224.JPG', 1)" data-index="1" />
-  
-    <img src="/assets/images/memento_mori/IMG_4333.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_4333.JPG', 2)" data-index="2" />
-  
-    <img src="/assets/images/memento_mori/IMG_5649.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_5649.JPG', 3)" data-index="3" />
-  
-    <img src="/assets/images/memento_mori/IMG_6114.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_6114.JPG', 4)" data-index="4" />
-  
-    <img src="/assets/images/memento_mori/IMG_6137.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_6137.JPG', 5)" data-index="5" />
-  
-    <img src="/assets/images/memento_mori/IMG_6396.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_6396.JPG', 6)" data-index="6" />
-  
-    <img src="/assets/images/memento_mori/IMG_6751.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_6751.JPG', 7)" data-index="7" />
-  
-    <img src="/assets/images/memento_mori/IMG_7350.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_7350.JPG', 8)" data-index="8" />
-  
-    <img src="/assets/images/memento_mori/IMG_7380.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_7380.JPG', 9)" data-index="9" />
-  
-    <img src="/assets/images/memento_mori/IMG_7387.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_7387.JPG', 10)" data-index="10" />
-  
-    <img src="/assets/images/memento_mori/IMG_7405.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_7405.JPG', 11)" data-index="11" />
-  
-    <img src="/assets/images/memento_mori/IMG_7418.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/memento_mori/IMG_7418.JPG', 12)" data-index="12" />
   
 </div>
 
@@ -141,136 +115,20 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
-</script>]]></content><author><name></name></author><summary type="html"><![CDATA[&times; &lsaquo; &rsaquo;]]></summary></entry><entry><title type="html">Hélène’s Correct and Based Advice</title><link href="http://localhost:4000/advice/" rel="alternate" type="text/html" title="Hélène’s Correct and Based Advice" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/advice</id><content type="html" xml:base="http://localhost:4000/advice/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Hélène’s Correct and Based Reactionary Take On Boomers</title><link href="http://localhost:4000/reactionary/" rel="alternate" type="text/html" title="Hélène’s Correct and Based Reactionary Take On Boomers" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/boomers</id><content type="html" xml:base="http://localhost:4000/reactionary/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Hélène’s Extensive Library Of Bloodlusty Yet Irresistibly Cute Carnivore Pictures</title><link href="http://localhost:4000/carnivores/" rel="alternate" type="text/html" title="Hélène’s Extensive Library Of Bloodlusty Yet Irresistibly Cute Carnivore Pictures" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/carnivore</id><content type="html" xml:base="http://localhost:4000/carnivores/"><![CDATA[<div class="image-gallery">
+</script>]]></content><author><name></name></author><summary type="html"><![CDATA[&times; &lsaquo; &rsaquo;]]></summary></entry><entry><title type="html">Putting A Bathrobe On The Second Mädchen</title><link href="http://localhost:4000/bathrobe/" rel="alternate" type="text/html" title="Putting A Bathrobe On The Second Mädchen" /><published>2025-08-14T00:00:00+02:00</published><updated>2025-08-14T00:00:00+02:00</updated><id>http://localhost:4000/bathrobe</id><content type="html" xml:base="http://localhost:4000/bathrobe/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Hélène Thinks Smoking Is OK</title><link href="http://localhost:4000/cigarettes/" rel="alternate" type="text/html" title="Hélène Thinks Smoking Is OK" /><published>2025-08-14T00:00:00+02:00</published><updated>2025-08-14T00:00:00+02:00</updated><id>http://localhost:4000/cigarettes</id><content type="html" xml:base="http://localhost:4000/cigarettes/"><![CDATA[<div class="image-gallery">
   
   
   
   
-    <img src="/assets/images/carnivores/IMG_2616.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_2616.JPG', 0)" data-index="0" />
+    <img src="/assets/images/cigarettes/IMG_6245.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/cigarettes/IMG_6245.JPG', 0)" data-index="0" />
   
-    <img src="/assets/images/carnivores/IMG_2624.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_2624.JPG', 1)" data-index="1" />
+    <img src="/assets/images/cigarettes/IMG_6299.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/cigarettes/IMG_6299.JPG', 1)" data-index="1" />
   
-    <img src="/assets/images/carnivores/IMG_3800.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_3800.JPG', 2)" data-index="2" />
+    <img src="/assets/images/cigarettes/IMG_6301.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/cigarettes/IMG_6301.JPG', 2)" data-index="2" />
   
-    <img src="/assets/images/carnivores/IMG_4199.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4199.JPG', 3)" data-index="3" />
+    <img src="/assets/images/cigarettes/IMG_6662.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/cigarettes/IMG_6662.JPG', 3)" data-index="3" />
   
-    <img src="/assets/images/carnivores/IMG_4503.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4503.JPG', 4)" data-index="4" />
-  
-    <img src="/assets/images/carnivores/IMG_4517.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4517.JPG', 5)" data-index="5" />
-  
-    <img src="/assets/images/carnivores/IMG_4540.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4540.JPG', 6)" data-index="6" />
-  
-    <img src="/assets/images/carnivores/IMG_4572.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4572.JPG', 7)" data-index="7" />
-  
-    <img src="/assets/images/carnivores/IMG_4584.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4584.PNG', 8)" data-index="8" />
-  
-    <img src="/assets/images/carnivores/IMG_4695.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4695.JPG', 9)" data-index="9" />
-  
-    <img src="/assets/images/carnivores/IMG_4742.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4742.JPG', 10)" data-index="10" />
-  
-    <img src="/assets/images/carnivores/IMG_4765.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4765.JPG', 11)" data-index="11" />
-  
-    <img src="/assets/images/carnivores/IMG_4767.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4767.JPG', 12)" data-index="12" />
-  
-    <img src="/assets/images/carnivores/IMG_4775.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4775.JPG', 13)" data-index="13" />
-  
-    <img src="/assets/images/carnivores/IMG_4949.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_4949.JPG', 14)" data-index="14" />
-  
-    <img src="/assets/images/carnivores/IMG_5048.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5048.JPG', 15)" data-index="15" />
-  
-    <img src="/assets/images/carnivores/IMG_5100.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5100.JPG', 16)" data-index="16" />
-  
-    <img src="/assets/images/carnivores/IMG_5148.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5148.JPG', 17)" data-index="17" />
-  
-    <img src="/assets/images/carnivores/IMG_5152.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5152.JPG', 18)" data-index="18" />
-  
-    <img src="/assets/images/carnivores/IMG_5162.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5162.JPG', 19)" data-index="19" />
-  
-    <img src="/assets/images/carnivores/IMG_5164.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5164.JPG', 20)" data-index="20" />
-  
-    <img src="/assets/images/carnivores/IMG_5274.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5274.JPG', 21)" data-index="21" />
-  
-    <img src="/assets/images/carnivores/IMG_5435.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5435.JPG', 22)" data-index="22" />
-  
-    <img src="/assets/images/carnivores/IMG_5503.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5503.JPG', 23)" data-index="23" />
-  
-    <img src="/assets/images/carnivores/IMG_5525.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5525.JPG', 24)" data-index="24" />
-  
-    <img src="/assets/images/carnivores/IMG_5527.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5527.JPG', 25)" data-index="25" />
-  
-    <img src="/assets/images/carnivores/IMG_5528.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5528.JPG', 26)" data-index="26" />
-  
-    <img src="/assets/images/carnivores/IMG_5532.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5532.JPG', 27)" data-index="27" />
-  
-    <img src="/assets/images/carnivores/IMG_5542.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5542.JPG', 28)" data-index="28" />
-  
-    <img src="/assets/images/carnivores/IMG_5543.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5543.JPG', 29)" data-index="29" />
-  
-    <img src="/assets/images/carnivores/IMG_5544.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5544.JPG', 30)" data-index="30" />
-  
-    <img src="/assets/images/carnivores/IMG_5723.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5723.JPG', 31)" data-index="31" />
-  
-    <img src="/assets/images/carnivores/IMG_5724.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5724.JPG', 32)" data-index="32" />
-  
-    <img src="/assets/images/carnivores/IMG_5950.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_5950.JPG', 33)" data-index="33" />
-  
-    <img src="/assets/images/carnivores/IMG_6015.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6015.JPG', 34)" data-index="34" />
-  
-    <img src="/assets/images/carnivores/IMG_6057.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6057.JPG', 35)" data-index="35" />
-  
-    <img src="/assets/images/carnivores/IMG_6090.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6090.JPG', 36)" data-index="36" />
-  
-    <img src="/assets/images/carnivores/IMG_6197.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6197.JPG', 37)" data-index="37" />
-  
-    <img src="/assets/images/carnivores/IMG_6244.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6244.JPG', 38)" data-index="38" />
-  
-    <img src="/assets/images/carnivores/IMG_6264.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6264.JPG', 39)" data-index="39" />
-  
-    <img src="/assets/images/carnivores/IMG_6462.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6462.JPG', 40)" data-index="40" />
-  
-    <img src="/assets/images/carnivores/IMG_6483.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6483.JPG', 41)" data-index="41" />
-  
-    <img src="/assets/images/carnivores/IMG_6484.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6484.JPG', 42)" data-index="42" />
-  
-    <img src="/assets/images/carnivores/IMG_6506.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6506.JPG', 43)" data-index="43" />
-  
-    <img src="/assets/images/carnivores/IMG_6509.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6509.JPG', 44)" data-index="44" />
-  
-    <img src="/assets/images/carnivores/IMG_6529.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6529.JPG', 45)" data-index="45" />
-  
-    <img src="/assets/images/carnivores/IMG_6579.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6579.PNG', 46)" data-index="46" />
-  
-    <img src="/assets/images/carnivores/IMG_6595.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6595.JPG', 47)" data-index="47" />
-  
-    <img src="/assets/images/carnivores/IMG_6667.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6667.PNG', 48)" data-index="48" />
-  
-    <img src="/assets/images/carnivores/IMG_6699.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6699.JPG', 49)" data-index="49" />
-  
-    <img src="/assets/images/carnivores/IMG_6842.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6842.JPG', 50)" data-index="50" />
-  
-    <img src="/assets/images/carnivores/IMG_6858.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6858.JPG', 51)" data-index="51" />
-  
-    <img src="/assets/images/carnivores/IMG_6879.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6879.JPG', 52)" data-index="52" />
-  
-    <img src="/assets/images/carnivores/IMG_6884.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6884.JPG', 53)" data-index="53" />
-  
-    <img src="/assets/images/carnivores/IMG_6890.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6890.JPG', 54)" data-index="54" />
-  
-    <img src="/assets/images/carnivores/IMG_6899.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6899.JPG', 55)" data-index="55" />
-  
-    <img src="/assets/images/carnivores/IMG_6902%202.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6902%202.JPG', 56)" data-index="56" />
-  
-    <img src="/assets/images/carnivores/IMG_6902.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6902.JPG', 57)" data-index="57" />
-  
-    <img src="/assets/images/carnivores/IMG_6907.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6907.JPG', 58)" data-index="58" />
-  
-    <img src="/assets/images/carnivores/IMG_6948.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6948.JPG', 59)" data-index="59" />
-  
-    <img src="/assets/images/carnivores/IMG_6949.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6949.JPG', 60)" data-index="60" />
-  
-    <img src="/assets/images/carnivores/IMG_6952.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_6952.JPG', 61)" data-index="61" />
-  
-    <img src="/assets/images/carnivores/IMG_7044.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/carnivores/IMG_7044.JPG', 62)" data-index="62" />
+    <img src="/assets/images/cigarettes/IMG_6943.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/cigarettes/IMG_6943.JPG', 4)" data-index="4" />
   
 </div>
 
@@ -384,215 +242,489 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
-</script>
+</script>]]></content><author><name></name></author><summary type="html"><![CDATA[&times; &lsaquo; &rsaquo;]]></summary></entry><entry><title type="html">Hélène’s Classifications</title><link href="http://localhost:4000/classify/" rel="alternate" type="text/html" title="Hélène’s Classifications" /><published>2025-08-14T00:00:00+02:00</published><updated>2025-08-14T00:00:00+02:00</updated><id>http://localhost:4000/classify</id><content type="html" xml:base="http://localhost:4000/classify/"><![CDATA[<div class="image-gallery">
+  
+  
+  
+  
+    <img src="/assets/images/classify/IMG_3292.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_3292.PNG', 0)" data-index="0" />
+  
+    <img src="/assets/images/classify/IMG_4715.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_4715.JPG', 1)" data-index="1" />
+  
+    <img src="/assets/images/classify/IMG_4804.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_4804.JPG', 2)" data-index="2" />
+  
+    <img src="/assets/images/classify/IMG_4873.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_4873.JPG', 3)" data-index="3" />
+  
+    <img src="/assets/images/classify/IMG_5024.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_5024.JPG', 4)" data-index="4" />
+  
+    <img src="/assets/images/classify/IMG_5157.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_5157.PNG', 5)" data-index="5" />
+  
+    <img src="/assets/images/classify/IMG_5617.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_5617.JPG', 6)" data-index="6" />
+  
+    <img src="/assets/images/classify/IMG_5984.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_5984.JPG', 7)" data-index="7" />
+  
+    <img src="/assets/images/classify/IMG_6071.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_6071.JPG', 8)" data-index="8" />
+  
+    <img src="/assets/images/classify/IMG_6204.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_6204.PNG', 9)" data-index="9" />
+  
+    <img src="/assets/images/classify/IMG_6205.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_6205.PNG', 10)" data-index="10" />
+  
+    <img src="/assets/images/classify/IMG_6237.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_6237.PNG', 11)" data-index="11" />
+  
+    <img src="/assets/images/classify/IMG_6466.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_6466.JPG', 12)" data-index="12" />
+  
+    <img src="/assets/images/classify/IMG_6510.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_6510.JPG', 13)" data-index="13" />
+  
+    <img src="/assets/images/classify/IMG_6565.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_6565.JPG', 14)" data-index="14" />
+  
+    <img src="/assets/images/classify/IMG_6581.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_6581.JPG', 15)" data-index="15" />
+  
+    <img src="/assets/images/classify/IMG_6754.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_6754.JPG', 16)" data-index="16" />
+  
+    <img src="/assets/images/classify/IMG_6898.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_6898.JPG', 17)" data-index="17" />
+  
+    <img src="/assets/images/classify/IMG_6912.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_6912.PNG', 18)" data-index="18" />
+  
+    <img src="/assets/images/classify/IMG_6916.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_6916.JPG', 19)" data-index="19" />
+  
+    <img src="/assets/images/classify/IMG_6922.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_6922.PNG', 20)" data-index="20" />
+  
+    <img src="/assets/images/classify/IMG_7331.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_7331.JPG', 21)" data-index="21" />
+  
+    <img src="/assets/images/classify/IMG_7334.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_7334.JPG', 22)" data-index="22" />
+  
+    <img src="/assets/images/classify/IMG_7335.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_7335.JPG', 23)" data-index="23" />
+  
+    <img src="/assets/images/classify/IMG_7342.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_7342.JPG', 24)" data-index="24" />
+  
+    <img src="/assets/images/classify/IMG_7363.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_7363.JPG', 25)" data-index="25" />
+  
+    <img src="/assets/images/classify/IMG_7399.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_7399.JPG', 26)" data-index="26" />
+  
+    <img src="/assets/images/classify/IMG_7421.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_7421.JPG', 27)" data-index="27" />
+  
+    <img src="/assets/images/classify/IMG_7424.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_7424.JPG', 28)" data-index="28" />
+  
+    <img src="/assets/images/classify/IMG_7489.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_7489.JPG', 29)" data-index="29" />
+  
+    <img src="/assets/images/classify/IMG_7535.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_7535.JPG', 30)" data-index="30" />
+  
+    <img src="/assets/images/classify/IMG_7540.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_7540.JPG', 31)" data-index="31" />
+  
+    <img src="/assets/images/classify/IMG_7549.jpeg" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_7549.jpeg', 32)" data-index="32" />
+  
+    <img src="/assets/images/classify/IMG_7597.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/IMG_7597.JPG', 33)" data-index="33" />
+  
+    <img src="/assets/images/classify/Image.jpg" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/classify/Image.jpg', 34)" data-index="34" />
+  
+</div>
 
-<h3>And when your bones are scattered all across the sand</h3>
-<h3>I'll find that I have loved you all along</h3>
-<h3>And I'm lonely</h3>
-<h3>And I'm hungry for more</h3>
-<h3>Carnivore</h3>]]></content><author><name></name></author><summary type="html"><![CDATA[&times; &lsaquo; &rsaquo;]]></summary></entry><entry><title type="html">Hélène’s Galleries</title><link href="http://localhost:4000/galleries/" rel="alternate" type="text/html" title="Hélène’s Galleries" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/galleries</id><content type="html" xml:base="http://localhost:4000/galleries/"><![CDATA[<div class="post-grid">
-  
-  
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-        <a href="/LNs/" class="post-box" style="text-decoration: none; display: block;">
-          <span class="post-box-link">Hélène's LNs</span>
-          
-            <p class="subtitle">That Unambiguously Represent Her Deepest Self</p>
-          
-        </a>
-        
-  
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-        <a href="/carnivores/" class="post-box" style="text-decoration: none; display: block;">
-          <span class="post-box-link">Hélène's Extensive Library Of Bloodlusty Yet Irresistibly Cute Carnivore Pictures</span>
-          
-            <p class="subtitle">Screenshotted For Your Viewing Pleasure</p>
-          
-        </a>
-        
-  
-    
-      
-      
-        <a href="/memento/" class="post-box" style="text-decoration: none; display: block;">
-          <span class="post-box-link">Hélène's Invocation To Memento Mori Hard</span>
-          
-            <p class="subtitle">If Ur Depressed U Should Def Check This Out</p>
-          
-        </a>
-        
-  
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Hélène's LNs That Unambiguously Represent Her Deepest Self Hélène's Extensive Library Of Bloodlusty Yet Irresistibly Cute Carnivore Pictures Screenshotted For Your Viewing Pleasure Hélène's Invocation To Memento Mori Hard If Ur Depressed U Should Def Check This Out]]></summary></entry><entry><title type="html">Hélène’s Correct and Based Take On What Makes Men Hot</title><link href="http://localhost:4000/hotmen/" rel="alternate" type="text/html" title="Hélène’s Correct and Based Take On What Makes Men Hot" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/hotmen</id><content type="html" xml:base="http://localhost:4000/hotmen/"><![CDATA[<h1> STOP SHAVING YOUR ARMPITS!!! <h1>
-</h1></h1>]]></content><author><name></name></author><summary type="html"><![CDATA[STOP SHAVING YOUR ARMPITS!!!]]></summary></entry><entry><title type="html">Hélène’s List Of Lists</title><link href="http://localhost:4000/lists/" rel="alternate" type="text/html" title="Hélène’s List Of Lists" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/lists</id><content type="html" xml:base="http://localhost:4000/lists/"><![CDATA[<div class="post-grid">
-  
-  
-    
-    
-      <a href="/passwords/" class="post-box" style="text-decoration: none; display: block;">
-        <span class="post-box-link">Hélène's Suggestion Of Passwords</span>
-        
-          <p class="subtitle">That You Could Use For Your Main Bank Account Maybe</p>
-        
-      </a>
-    
-  
-    
-    
-      <a href="/wiki/" class="post-box" style="text-decoration: none; display: block;">
-        <span class="post-box-link">Hélène's Favourite Wikipedia Articles</span>
-        
-      </a>
-    
-  
-    
-    
-      <a href="/predictions/" class="post-box" style="text-decoration: none; display: block;">
-        <span class="post-box-link">Hélène's Predictions Of Future Events</span>
-        
-          <p class="subtitle">That She Is Dishing Out Like It's Fucking Nothing</p>
-        
-      </a>
-    
-  
-    
-    
-      <a href="/sidequests/" class="post-box" style="text-decoration: none; display: block;">
-        <span class="post-box-link">Hélène's Sidequests</span>
-        
-          <p class="subtitle">That Have Monopolized Her Attention And Distracted Her From Urgent And Important Matters</p>
-        
-      </a>
-    
-  
-    
-    
-      <a href="/takes/" class="post-box" style="text-decoration: none; display: block;">
-        <span class="post-box-link">Hélène's Correct and Based Takes</span>
-        
-      </a>
-    
-  
-</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Hélène's Suggestion Of Passwords That You Could Use For Your Main Bank Account Maybe Hélène's Favourite Wikipedia Articles Hélène's Predictions Of Future Events That She Is Dishing Out Like It's Fucking Nothing Hélène's Sidequests That Have Monopolized Her Attention And Distracted Her From Urgent And Important Matters Hélène's Correct and Based Takes]]></summary></entry><entry><title type="html">Hélène’s Suggestion Of Passwords</title><link href="http://localhost:4000/passwords/" rel="alternate" type="text/html" title="Hélène’s Suggestion Of Passwords" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/passwords</id><content type="html" xml:base="http://localhost:4000/passwords/"><![CDATA[<div id="password-container"></div>
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+  <button class="lightbox-nav prev" onclick="prevImage()">&lsaquo;</button>
+  <button class="lightbox-nav next" onclick="nextImage()">&rsaquo;</button>
+  <img class="lightbox-content" id="lightbox-img" />
+</div>
 
 <script>
-// List of passwords - just add new ones to this array
-const passwords = [
-  "12345",
-  "123456", 
-  "1235813",
-  "MrHandsome",
-  "MrHandsome123",
-  "pleasedonthackme",
-  "hubbahubba",
-];
+let currentImageIndex = 0;
+let galleryImages = [];
 
-// Generate HTML for all passwords
-function generatePasswordList() {
-  const container = document.getElementById('password-container');
+function initializeGallery() {
+  // Collect all gallery images
+  const imgs = document.querySelectorAll('.image-gallery img');
+  galleryImages = Array.from(imgs).map(img => ({
+    src: img.src,
+    index: parseInt(img.dataset.index)
+  }));
+}
+
+function openLightbox(src, index) {
+  const lightbox = document.getElementById('lightbox');
+  const img = document.getElementById('lightbox-img');
   
-  passwords.forEach((password, index) => {
-    const passwordDiv = document.createElement('div');
-    passwordDiv.style.cssText = 'display: flex; align-items: center; gap: 10px; margin-bottom: 1em;';
-    
-    const preElement = document.createElement('pre');
-    preElement.id = `copy-target-${index}`;
-    preElement.style.margin = '0';
-    preElement.textContent = password;
-    
-    const button = document.createElement('button');
-    button.textContent = 'Copy';
-    button.onclick = () => copyText(`copy-target-${index}`);
-    
-    passwordDiv.appendChild(preElement);
-    passwordDiv.appendChild(button);
-    container.appendChild(passwordDiv);
-  });
+  currentImageIndex = index;
+  
+  // Show lightbox and set image
+  lightbox.style.display = 'block';
+  img.src = src;
+  
+  // Update navigation buttons
+  updateNavButtons();
+  
+  // Trigger animation after a small delay
+  setTimeout(() => {
+    lightbox.classList.add('show');
+  }, 10);
 }
 
-function copyText(id) {
-  const el = document.getElementById(id);
-  if (!el) {
-    alert("Element not found.");
-    return;
+function closeLightbox() {
+  const lightbox = document.getElementById('lightbox');
+  
+  // Remove show class for exit animation
+  lightbox.classList.remove('show');
+  
+  // Hide lightbox after animation completes
+  setTimeout(() => {
+    lightbox.style.display = 'none';
+  }, 300);
+}
+
+function prevImage() {
+  if (currentImageIndex > 0) {
+    currentImageIndex--;
+    changeImage();
   }
-  navigator.clipboard.writeText(el.innerText)
-    .then(() => alert("Copied!"))
-    .catch(err => alert("Copy failed: " + err));
 }
 
-// Generate the password list when page loads
-document.addEventListener('DOMContentLoaded', generatePasswordList);
-</script>]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Hélène’s Predictions Of Future Events</title><link href="http://localhost:4000/predictions/" rel="alternate" type="text/html" title="Hélène’s Predictions Of Future Events" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/predictions</id><content type="html" xml:base="http://localhost:4000/predictions/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Hélène’s Impulsive And Frivolous Internet Purchases</title><link href="http://localhost:4000/purchases/" rel="alternate" type="text/html" title="Hélène’s Impulsive And Frivolous Internet Purchases" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/purchases</id><content type="html" xml:base="http://localhost:4000/purchases/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry></feed>
+function nextImage() {
+  if (currentImageIndex < galleryImages.length - 1) {
+    currentImageIndex++;
+    changeImage();
+  }
+}
+
+function changeImage() {
+  const img = document.getElementById('lightbox-img');
+  
+  // Simple image change
+  img.src = galleryImages[currentImageIndex].src;
+  updateNavButtons();
+}
+
+function updateNavButtons() {
+  const prevBtn = document.querySelector('.lightbox-nav.prev');
+  const nextBtn = document.querySelector('.lightbox-nav.next');
+  
+  prevBtn.disabled = currentImageIndex === 0;
+  nextBtn.disabled = currentImageIndex === galleryImages.length - 1;
+}
+
+// Initialize gallery when DOM is loaded
+document.addEventListener('DOMContentLoaded', initializeGallery);
+
+// Keyboard navigation
+document.addEventListener('keydown', function(event) {
+  if (document.getElementById('lightbox').style.display === 'block') {
+    switch(event.key) {
+      case 'Escape':
+        closeLightbox();
+        break;
+      case 'ArrowLeft':
+        prevImage();
+        break;
+      case 'ArrowRight':
+        nextImage();
+        break;
+    }
+  }
+});
+
+// Prevent lightbox from closing when clicking the image itself
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('lightbox').addEventListener('click', function(e) {
+    if (e.target === this) {
+      closeLightbox();
+    }
+  });
+});
+</script>]]></content><author><name></name></author><summary type="html"><![CDATA[&times; &lsaquo; &rsaquo;]]></summary></entry><entry><title type="html">Disclaimer</title><link href="http://localhost:4000/disclaimer/" rel="alternate" type="text/html" title="Disclaimer" /><published>2025-08-14T00:00:00+02:00</published><updated>2025-08-14T00:00:00+02:00</updated><id>http://localhost:4000/disclaimer</id><content type="html" xml:base="http://localhost:4000/disclaimer/"><![CDATA[<h3>This is my fun playground — I don't claim ownership over images unless stated. If there's anything you don't like and have good reasons for, contact me and I'll remove it.</h3>]]></content><author><name></name></author><summary type="html"><![CDATA[This is my fun playground — I don't claim ownership over images unless stated. If there's anything you don't like and have good reasons for, contact me and I'll remove it.]]></summary></entry><entry><title type="html">Hélène Enjoys It When Order Meets Disorder</title><link href="http://localhost:4000/disorder/" rel="alternate" type="text/html" title="Hélène Enjoys It When Order Meets Disorder" /><published>2025-08-14T00:00:00+02:00</published><updated>2025-08-14T00:00:00+02:00</updated><id>http://localhost:4000/disorder</id><content type="html" xml:base="http://localhost:4000/disorder/"><![CDATA[<div class="image-gallery">
+  
+  
+  
+  
+    <img src="/assets/images/disorder/IMG_2773.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/disorder/IMG_2773.JPG', 0)" data-index="0" />
+  
+    <img src="/assets/images/disorder/IMG_5726.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/disorder/IMG_5726.JPG', 1)" data-index="1" />
+  
+    <img src="/assets/images/disorder/IMG_6221.PNG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/disorder/IMG_6221.PNG', 2)" data-index="2" />
+  
+    <img src="/assets/images/disorder/IMG_7485.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/disorder/IMG_7485.JPG', 3)" data-index="3" />
+  
+    <img src="/assets/images/disorder/IMG_7558.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/disorder/IMG_7558.JPG', 4)" data-index="4" />
+  
+    <img src="/assets/images/disorder/IMG_7595.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/disorder/IMG_7595.JPG', 5)" data-index="5" />
+  
+    <img src="/assets/images/disorder/IMG_7608.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/disorder/IMG_7608.JPG', 6)" data-index="6" />
+  
+    <img src="/assets/images/disorder/IMG_7613.JPG" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/disorder/IMG_7613.JPG', 7)" data-index="7" />
+  
+    <img src="/assets/images/disorder/Image%2011.jpg" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/disorder/Image%2011.jpg', 8)" data-index="8" />
+  
+</div>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+  <button class="lightbox-nav prev" onclick="prevImage()">&lsaquo;</button>
+  <button class="lightbox-nav next" onclick="nextImage()">&rsaquo;</button>
+  <img class="lightbox-content" id="lightbox-img" />
+</div>
+
+<script>
+let currentImageIndex = 0;
+let galleryImages = [];
+
+function initializeGallery() {
+  // Collect all gallery images
+  const imgs = document.querySelectorAll('.image-gallery img');
+  galleryImages = Array.from(imgs).map(img => ({
+    src: img.src,
+    index: parseInt(img.dataset.index)
+  }));
+}
+
+function openLightbox(src, index) {
+  const lightbox = document.getElementById('lightbox');
+  const img = document.getElementById('lightbox-img');
+  
+  currentImageIndex = index;
+  
+  // Show lightbox and set image
+  lightbox.style.display = 'block';
+  img.src = src;
+  
+  // Update navigation buttons
+  updateNavButtons();
+  
+  // Trigger animation after a small delay
+  setTimeout(() => {
+    lightbox.classList.add('show');
+  }, 10);
+}
+
+function closeLightbox() {
+  const lightbox = document.getElementById('lightbox');
+  
+  // Remove show class for exit animation
+  lightbox.classList.remove('show');
+  
+  // Hide lightbox after animation completes
+  setTimeout(() => {
+    lightbox.style.display = 'none';
+  }, 300);
+}
+
+function prevImage() {
+  if (currentImageIndex > 0) {
+    currentImageIndex--;
+    changeImage();
+  }
+}
+
+function nextImage() {
+  if (currentImageIndex < galleryImages.length - 1) {
+    currentImageIndex++;
+    changeImage();
+  }
+}
+
+function changeImage() {
+  const img = document.getElementById('lightbox-img');
+  
+  // Simple image change
+  img.src = galleryImages[currentImageIndex].src;
+  updateNavButtons();
+}
+
+function updateNavButtons() {
+  const prevBtn = document.querySelector('.lightbox-nav.prev');
+  const nextBtn = document.querySelector('.lightbox-nav.next');
+  
+  prevBtn.disabled = currentImageIndex === 0;
+  nextBtn.disabled = currentImageIndex === galleryImages.length - 1;
+}
+
+// Initialize gallery when DOM is loaded
+document.addEventListener('DOMContentLoaded', initializeGallery);
+
+// Keyboard navigation
+document.addEventListener('keydown', function(event) {
+  if (document.getElementById('lightbox').style.display === 'block') {
+    switch(event.key) {
+      case 'Escape':
+        closeLightbox();
+        break;
+      case 'ArrowLeft':
+        prevImage();
+        break;
+      case 'ArrowRight':
+        nextImage();
+        break;
+    }
+  }
+});
+
+// Prevent lightbox from closing when clicking the image itself
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('lightbox').addEventListener('click', function(e) {
+    if (e.target === this) {
+      closeLightbox();
+    }
+  });
+});
+</script>]]></content><author><name></name></author><summary type="html"><![CDATA[&times; &lsaquo; &rsaquo;]]></summary></entry><entry><title type="html">Hélène Is Holding Flowers In Her Left Hand</title><link href="http://localhost:4000/holdingflowers/" rel="alternate" type="text/html" title="Hélène Is Holding Flowers In Her Left Hand" /><published>2025-08-14T00:00:00+02:00</published><updated>2025-08-14T00:00:00+02:00</updated><id>http://localhost:4000/holdingflowers</id><content type="html" xml:base="http://localhost:4000/holdingflowers/"><![CDATA[<div class="image-gallery">
+  
+  
+  
+  
+    <img src="/assets/images/holdingflowers/IMG_5961.jpeg" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/holdingflowers/IMG_5961.jpeg', 0)" data-index="0" />
+  
+    <img src="/assets/images/holdingflowers/IMG_6881.jpeg" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/holdingflowers/IMG_6881.jpeg', 1)" data-index="1" />
+  
+    <img src="/assets/images/holdingflowers/IMG_6908%202.jpeg" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/holdingflowers/IMG_6908%202.jpeg', 2)" data-index="2" />
+  
+    <img src="/assets/images/holdingflowers/IMG_6934.jpeg" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/holdingflowers/IMG_6934.jpeg', 3)" data-index="3" />
+  
+    <img src="/assets/images/holdingflowers/IMG_6965.jpeg" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/holdingflowers/IMG_6965.jpeg', 4)" data-index="4" />
+  
+    <img src="/assets/images/holdingflowers/IMG_7340.jpeg" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('/assets/images/holdingflowers/IMG_7340.jpeg', 5)" data-index="5" />
+  
+</div>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+  <button class="lightbox-nav prev" onclick="prevImage()">&lsaquo;</button>
+  <button class="lightbox-nav next" onclick="nextImage()">&rsaquo;</button>
+  <img class="lightbox-content" id="lightbox-img" />
+</div>
+
+<script>
+let currentImageIndex = 0;
+let galleryImages = [];
+
+function initializeGallery() {
+  // Collect all gallery images
+  const imgs = document.querySelectorAll('.image-gallery img');
+  galleryImages = Array.from(imgs).map(img => ({
+    src: img.src,
+    index: parseInt(img.dataset.index)
+  }));
+}
+
+function openLightbox(src, index) {
+  const lightbox = document.getElementById('lightbox');
+  const img = document.getElementById('lightbox-img');
+  
+  currentImageIndex = index;
+  
+  // Show lightbox and set image
+  lightbox.style.display = 'block';
+  img.src = src;
+  
+  // Update navigation buttons
+  updateNavButtons();
+  
+  // Trigger animation after a small delay
+  setTimeout(() => {
+    lightbox.classList.add('show');
+  }, 10);
+}
+
+function closeLightbox() {
+  const lightbox = document.getElementById('lightbox');
+  
+  // Remove show class for exit animation
+  lightbox.classList.remove('show');
+  
+  // Hide lightbox after animation completes
+  setTimeout(() => {
+    lightbox.style.display = 'none';
+  }, 300);
+}
+
+function prevImage() {
+  if (currentImageIndex > 0) {
+    currentImageIndex--;
+    changeImage();
+  }
+}
+
+function nextImage() {
+  if (currentImageIndex < galleryImages.length - 1) {
+    currentImageIndex++;
+    changeImage();
+  }
+}
+
+function changeImage() {
+  const img = document.getElementById('lightbox-img');
+  
+  // Simple image change
+  img.src = galleryImages[currentImageIndex].src;
+  updateNavButtons();
+}
+
+function updateNavButtons() {
+  const prevBtn = document.querySelector('.lightbox-nav.prev');
+  const nextBtn = document.querySelector('.lightbox-nav.next');
+  
+  prevBtn.disabled = currentImageIndex === 0;
+  nextBtn.disabled = currentImageIndex === galleryImages.length - 1;
+}
+
+// Initialize gallery when DOM is loaded
+document.addEventListener('DOMContentLoaded', initializeGallery);
+
+// Keyboard navigation
+document.addEventListener('keydown', function(event) {
+  if (document.getElementById('lightbox').style.display === 'block') {
+    switch(event.key) {
+      case 'Escape':
+        closeLightbox();
+        break;
+      case 'ArrowLeft':
+        prevImage();
+        break;
+      case 'ArrowRight':
+        nextImage();
+        break;
+    }
+  }
+});
+
+// Prevent lightbox from closing when clicking the image itself
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('lightbox').addEventListener('click', function(e) {
+    if (e.target === this) {
+      closeLightbox();
+    }
+  });
+});
+</script>]]></content><author><name></name></author><summary type="html"><![CDATA[&times; &lsaquo; &rsaquo;]]></summary></entry><entry><title type="html">Hélène’s Messages To Selected Demographics</title><link href="http://localhost:4000/messages/" rel="alternate" type="text/html" title="Hélène’s Messages To Selected Demographics" /><published>2025-08-07T00:00:00+02:00</published><updated>2025-08-07T00:00:00+02:00</updated><id>http://localhost:4000/messages</id><content type="html" xml:base="http://localhost:4000/messages/"><![CDATA[<div class="post-grid">
+  
+  
+    
+    
+      <a href="/haters/" class="post-box" style="text-decoration: none; display: block;">
+        <span class="post-box-link">Hélène's Message To The Haters And Losers</span>
+        
+          <p class="subtitle">This Is For U If U Are A Hater Or A Loser</p>
+        
+      </a>
+    
+  
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Hélène's Message To The Haters And Losers This Is For U If U Are A Hater Or A Loser]]></summary></entry><entry><title type="html">Hélène’s Sidequests</title><link href="http://localhost:4000/sidequests/" rel="alternate" type="text/html" title="Hélène’s Sidequests" /><published>2025-06-09T00:00:00+02:00</published><updated>2025-06-09T00:00:00+02:00</updated><id>http://localhost:4000/sidequests</id><content type="html" xml:base="http://localhost:4000/sidequests/"><![CDATA[<div class="post-grid">
+  
+  
+    
+    
+      <a href="/wifi/" class="post-box" style="text-decoration: none; display: block;">
+        <span class="post-box-link">Framing the Wifi password</span>
+        
+      </a>
+    
+  
+    
+    
+      <a href="/bathrobe/" class="post-box" style="text-decoration: none; display: block;">
+        <span class="post-box-link">Putting A Bathrobe On The Second Mädchen</span>
+        
+          <p class="subtitle">From Drei Mädchen Und Ein Knabe</p>
+        
+      </a>
+    
+  
+</div>]]></content><author><name></name></author><summary type="html"><![CDATA[Framing the Wifi password Putting A Bathrobe On The Second Mädchen From Drei Mädchen Und Ein Knabe]]></summary></entry></feed>

@@ -197,7 +197,7 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .il { color: #099; }
 
 /* Custom color palette - expandable list */
-:root { --slate-blue: #8B7FDB; /* original #6A5ACD mixed with white */ --burgundy: #A6334F; /* original #800020 mixed with white */ --deep-pink: #E75480; --dark-green: #123524; --banana-yellow: #FFD700; /* banana yellow */ /* Box color rotation - add new colors here */ --box-color-1: #8B7FDB; /* brightened slate-blue */ --box-color-2: #A6334F; /* brightened burgundy */ --box-color-3: #E75480; /* deep-pink */ --box-color-4: #123524; /* dark-green */ --box-color-5: #8B4513; /* saddle-brown */ --box-color-6: #483D8B; /* dark-slate-blue */ --box-color-7: #00fff2; /* cyan */ --box-color-8: #ff0062; /* hot-pink */ --box-color-9: #90EE90; /* light-green */ --box-color-10: #FFB6C1; /* light-pink */ --box-color-11: #B19CD9; /* lighter slate-blue */ --box-color-12: #CC6B85; /* lighter burgundy */ --box-color-13: #FFD700; /* banana-yellow */ /* Contrasting text colors for each box */ --text-color-1: #fff; /* white on slate-blue */ --text-color-2: #fff; /* white on burgundy */ --text-color-3: #000; /* black on deep-pink */ --text-color-4: #fff; /* white on dark-green */ --text-color-5: #fff; /* white on saddle-brown */ --text-color-6: #fff; /* white on dark-slate-blue */ --text-color-7: #000; /* black on cyan */ --text-color-8: #fff; /* white on hot-pink */ --text-color-9: #000; /* black on light-green */ --text-color-10: #000; /* black on light-pink */ --text-color-11: #000; /* black on lighter slate-blue */ --text-color-12: #fff; /* white on lighter burgundy */ --text-color-13: #000; /* black on banana-yellow */ }
+:root { --calm-violet: #8B7FDB; /* original #6A5ACD mixed with white */ --slate-blue: #5B7C99; /* new slate blue */ --burgundy: #A6334F; /* original #800020 mixed with white */ --deep-pink: #E75480; --dark-green: #123524; --banana-yellow: #FFD700; /* banana yellow */ /* Box color rotation - add new colors here */ --box-color-1: #A6334F; /* brightened burgundy */ --box-color-2: #E75480; /* deep-pink */ --box-color-3: #009E60; /* shamrock green */ --box-color-4: #8B4513; /* saddle-brown */ --box-color-5: #00fff2; /* cyan */ --box-color-6: #ff0062; /* hot-pink */ --box-color-7: #90EE90; /* light-green */ --box-color-8: #FFB6C1; /* light-pink */ --box-color-9: #CC6B85; /* lighter burgundy */ --box-color-10: #FFD700; /* banana-yellow */ --box-color-11: #8B7FDB; /* calm-violet */ /* Contrasting text colors for each box */ --text-color-1: #fff; /* white on burgundy */ --text-color-2: #000; /* black on deep-pink */ --text-color-3: #fff; /* white on dark-green */ --text-color-4: #fff; /* white on saddle-brown */ --text-color-5: #000; /* black on cyan */ --text-color-6: #fff; /* white on hot-pink */ --text-color-7: #000; /* black on light-green */ --text-color-8: #000; /* black on light-pink */ --text-color-9: #fff; /* white on lighter burgundy */ --text-color-10: #000; /* black on banana-yellow */ --text-color-11: #fff; /* white on calm-violet */ }
 
 /* Custom fonts with text stroke effect */
 /* Impact font for headings */
@@ -206,11 +206,11 @@ h1, h2, h3, h4, h5, h6, .site-title { font-family: Impact, 'Arial Black', sans-s
 /* Times New Roman for body text - elegant italic */
 body, p, li, .post-content { font-family: 'Times New Roman', serif !important; font-style: italic !important; font-weight: bold !important; font-size: 1.1rem !important; color: #000 !important; text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff !important; }
 
-/* Background styling with tree image */
-body { background-image: url("/assets/images/prettify/tree.jpeg") !important; background-size: cover !important; background-position: center !important; background-attachment: fixed !important; background-repeat: no-repeat !important; min-height: 100vh !important; }
+/* Background styling with solid slate blue - prevent unwanted scroll */
+html, body { background-color: var(--slate-blue) !important; background-image: none !important; min-height: 100vh !important; overflow-x: hidden !important; margin: 0 !important; padding: 0 !important; width: 100% !important; max-width: 100% !important; }
 
-/* Header styling with colors only */
-.site-header { background-color: var(--slate-blue) !important; border-top: 5px solid var(--deep-pink) !important; border-bottom: 3px solid var(--burgundy) !important; }
+/* Header styling with colors only - keep top, remove bottom */
+.site-header, header.site-header, .site-header.site-header { background-color: var(--calm-violet) !important; border-bottom: 0 !important; border-bottom-width: 0 !important; border-bottom-style: none !important; border-left: 0 !important; border-right: 0 !important; }
 
 /* Main content area styling - no background */
 .page-content { background-color: transparent !important; backdrop-filter: none !important; border-radius: 15px !important; margin: 20px !important; padding: 30px !important; box-shadow: none !important; }
@@ -239,8 +239,8 @@ a:hover { color: var(--deep-pink) !important; text-shadow: -1px -1px 0 #000, 1px
 /* Navigation styling - black with white border */
 .site-nav .page-link { color: #000 !important; font-family: 'Times New Roman', serif !important; font-style: normal !important; font-weight: bold !important; text-transform: none !important; font-size: 1.1rem !important; text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff !important; }
 
-/* Footer styling */
-.site-footer { background-color: rgba(18, 53, 36, 0.9) !important; border-top: 3px solid var(--deep-pink) !important; }
+/* Footer styling - match header */
+.site-footer { background-color: var(--calm-violet) !important; box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.3) !important; }
 
 /* Subtitle styling */
 .subtitle { color: rgba(255, 255, 255, 0.8) !important; font-size: 1.1rem !important; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000 !important; }
@@ -248,7 +248,7 @@ a:hover { color: var(--deep-pink) !important; text-shadow: -1px -1px 0 #000, 1px
 /* Remove decorative overlay - using tree as main background */
 /* .wrapper::before removed */
 /* Enhanced post content */
-.post-content h2, .post-content h3, .post-content h4 { border-bottom: 2px solid var(--deep-pink) !important; padding-bottom: 10px !important; margin-top: 30px !important; }
+.post-content h2, .post-content h3, .post-content h4 { padding-bottom: 10px !important; margin-top: 30px !important; }
 
 /* Image styling */
 img { border-radius: 10px !important; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) !important; border: 2px solid rgba(255, 255, 255, 0.3) !important; }
@@ -265,7 +265,7 @@ h1 { font-size: 2.2rem !important; }
 
 h2 { font-size: 1.8rem !important; }
 
-h3 { font-size: 1.5rem !important; font-family: 'Apple Chancery', cursive !important; font-style: italic !important; font-weight: normal !important; }
+h3 { font-size: 1.5rem !important; font-family: 'Comic Sans MS', cursive !important; font-style: normal !important; font-weight: bold !important; color: #000 !important; text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff !important; }
 
 h4 { font-size: 1.3rem !important; }
 
@@ -278,8 +278,8 @@ h6 { font-size: 1rem !important; }
 
 .contact-list { display: none !important; }
 
-/* Compact painting-like layout - reduced margins */
-.wrapper { max-width: 1200px !important; padding: 10px !important; }
+/* Consistent layout - same width for header and footer */
+.wrapper { max-width: 1200px !important; padding: 10px !important; margin: 0 auto !important; }
 
 .page-content { background-color: transparent !important; border-radius: 15px !important; margin: 10px auto !important; padding: 15px !important; box-shadow: none !important; max-width: 1150px !important; min-height: auto !important; }
 
@@ -297,30 +297,46 @@ body.home .post-box { position: relative !important; width: 300px !important; he
 /* Individual post boxes - filled with colors and minimal padding */
 .post-box { border-radius: 15px !important; padding: 10px !important; border: 2px solid rgba(255, 255, 255, 0.3) !important; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3) !important; transition: all 0.3s ease !important; position: relative !important; overflow: hidden !important; min-height: auto !important; flex: 0 1 260px !important; text-align: center !important; display: flex !important; flex-direction: column !important; justify-content: center !important; align-items: center !important; cursor: pointer !important; }
 
-/* Color rotation for boxes - expanded to 12 colors */
-.post-box:nth-child(12n+1) { background-color: var(--box-color-1) !important; }
+/* Dynamic color rotation - automatically handles any number of colors */
+.post-box:nth-child(20n+1) { background-color: var(--box-color-1, var(--box-color-1)) !important; }
 
-.post-box:nth-child(12n+2) { background-color: var(--box-color-2) !important; }
+.post-box:nth-child(20n+2) { background-color: var(--box-color-2, var(--box-color-1)) !important; }
 
-.post-box:nth-child(12n+3) { background-color: var(--box-color-3) !important; }
+.post-box:nth-child(20n+3) { background-color: var(--box-color-3, var(--box-color-1)) !important; }
 
-.post-box:nth-child(12n+4) { background-color: var(--box-color-4) !important; }
+.post-box:nth-child(20n+4) { background-color: var(--box-color-4, var(--box-color-1)) !important; }
 
-.post-box:nth-child(12n+5) { background-color: var(--box-color-5) !important; }
+.post-box:nth-child(20n+5) { background-color: var(--box-color-5, var(--box-color-1)) !important; }
 
-.post-box:nth-child(12n+6) { background-color: var(--box-color-6) !important; }
+.post-box:nth-child(20n+6) { background-color: var(--box-color-6, var(--box-color-1)) !important; }
 
-.post-box:nth-child(12n+7) { background-color: var(--box-color-7) !important; }
+.post-box:nth-child(20n+7) { background-color: var(--box-color-7, var(--box-color-1)) !important; }
 
-.post-box:nth-child(12n+8) { background-color: var(--box-color-8) !important; }
+.post-box:nth-child(20n+8) { background-color: var(--box-color-8, var(--box-color-1)) !important; }
 
-.post-box:nth-child(12n+9) { background-color: var(--box-color-9) !important; }
+.post-box:nth-child(20n+9) { background-color: var(--box-color-9, var(--box-color-1)) !important; }
 
-.post-box:nth-child(12n+10) { background-color: var(--box-color-10) !important; }
+.post-box:nth-child(20n+10) { background-color: var(--box-color-10, var(--box-color-1)) !important; }
 
-.post-box:nth-child(12n+11) { background-color: var(--box-color-11) !important; }
+.post-box:nth-child(20n+11) { background-color: var(--box-color-11, var(--box-color-1)) !important; }
 
-.post-box:nth-child(12n+0) { background-color: var(--box-color-12) !important; }
+.post-box:nth-child(20n+12) { background-color: var(--box-color-12, var(--box-color-1)) !important; }
+
+.post-box:nth-child(20n+13) { background-color: var(--box-color-13, var(--box-color-1)) !important; }
+
+.post-box:nth-child(20n+14) { background-color: var(--box-color-14, var(--box-color-1)) !important; }
+
+.post-box:nth-child(20n+15) { background-color: var(--box-color-15, var(--box-color-1)) !important; }
+
+.post-box:nth-child(20n+16) { background-color: var(--box-color-16, var(--box-color-1)) !important; }
+
+.post-box:nth-child(20n+17) { background-color: var(--box-color-17, var(--box-color-1)) !important; }
+
+.post-box:nth-child(20n+18) { background-color: var(--box-color-18, var(--box-color-1)) !important; }
+
+.post-box:nth-child(20n+19) { background-color: var(--box-color-19, var(--box-color-1)) !important; }
+
+.post-box:nth-child(20n+0) { background-color: var(--box-color-20, var(--box-color-1)) !important; }
 
 /* All post box text is black - no outline */
 .post-box { color: #000 !important; }
@@ -347,10 +363,10 @@ a.post-box .post-box-link { color: inherit !important; text-decoration: none !im
 .post-link { font-size: 2.5rem !important; font-family: Impact, 'Arial Black', sans-serif !important; text-transform: uppercase !important; font-weight: 900 !important; font-style: normal !important; color: white !important; text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000, -4px -4px 0 #000, 4px -4px 0 #000, -4px 4px 0 #000, 4px 4px 0 #000 !important; text-decoration: none !important; display: block !important; margin-bottom: 15px !important; }
 
 /* Modern site header */
-.site-header { background-color: var(--slate-blue) !important; border-top: 8px solid var(--deep-pink) !important; border-bottom: 5px solid var(--burgundy) !important; padding: 20px 0 !important; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3) !important; }
+.site-header { background-color: var(--calm-violet) !important; border: none !important; padding: 20px 0 !important; box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3) !important; width: 100% !important; min-height: 80px !important; }
 
-/* Compact footer */
-.site-footer { background-color: rgba(18, 53, 36, 0.8) !important; border-top: 3px solid var(--deep-pink) !important; padding: 20px 0 !important; backdrop-filter: blur(10px) !important; margin-top: 30px !important; }
+/* Compact footer - match header style exactly */
+.site-footer { background-color: var(--calm-violet) !important; padding: 20px 0 !important; box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.3) !important; margin-top: 0 !important; width: 100% !important; min-height: 80px !important; }
 
 /* Subtitle improvements - larger and elegant */
 .subtitle { font-size: 1.2rem !important; font-family: 'Times New Roman', serif !important; font-style: italic !important; font-weight: normal !important; margin-top: 2px !important; text-align: center !important; padding: 0 3px !important; line-height: 1.2 !important; opacity: 0.9 !important; }
@@ -391,3 +407,26 @@ a, a:link, a:visited, a:hover, a:active, .post-box a, .post-box-link, .page-titl
 
 /* Force no underlines on any element that might have them */
 * { text-decoration: none !important; }
+
+/* NUCLEAR OVERRIDE: Remove all possible borders near header area */
+.site-header, .site-header *, header.site-header, header.site-header *, .page-content, .wrapper, main, body > *, #main, .main { border-bottom-color: transparent !important; border-bottom: 0px solid transparent !important; border-image: none !important; border-bottom-width: 0 !important; border-bottom-style: none !important; }
+
+/* Remove borders from all pseudo-elements */
+*:before, *:after { border-bottom: none !important; border-top: none !important; }
+
+/* Specific color overrides */
+* { border-color: transparent !important; }
+
+/* Wiki page specific styling - Comic Sans MS regular */
+.wiki-box .post-box-link { font-family: 'Comic Sans MS', cursive !important; font-weight: normal !important; font-style: normal !important; font-size: 1.2rem !important; }
+
+/* Wiki page - scattered layout */
+.wiki-grid { display: flex !important; flex-wrap: wrap !important; justify-content: flex-start !important; align-items: flex-start !important; gap: 15px !important; }
+
+.wiki-box { flex: 0 0 auto !important; width: auto !important; min-width: 120px !important; max-width: 200px !important; padding: 8px !important; transform: rotate(-1deg) !important; }
+
+.wiki-box:nth-child(2n) { transform: rotate(1deg) !important; margin-top: 10px !important; }
+
+.wiki-box:nth-child(3n) { transform: rotate(-0.5deg) !important; margin-top: -5px !important; }
+
+.wiki-box:nth-child(4n) { transform: rotate(0.8deg) !important; margin-top: 15px !important; }
