@@ -11,19 +11,17 @@
         {%- assign filename = page.path | split: "/" | last -%}
         {%- assign mother_url = "/" -%}
         
-        {%- for section_name in site.data.post_meta -%}
-          {%- assign section_posts = section_name[1] -%}
-          {%- if section_posts contains filename -%}
-            {%- if section_name[0] == "lists" -%}
-              {%- assign mother_url = "/lists/" -%}
-            {%- elsif section_name[0] == "galleries" -%}
-              {%- assign mother_url = "/galleries/" -%}
-            {%- elsif section_name[0] == "takes" -%}
-              {%- assign mother_url = "/takes/" -%}
-            {%- endif -%}
-            {%- break -%}
-          {%- endif -%}
-        {%- endfor -%}
+        {%- if site.data.post_meta.galleries contains filename -%}
+          {%- assign mother_url = "/galleries/" -%}
+        {%- elsif site.data.post_meta.lists contains filename -%}
+          {%- assign mother_url = "/lists/" -%}
+        {%- elsif site.data.post_meta.takes contains filename -%}
+          {%- assign mother_url = "/takes/" -%}
+        {%- elsif site.data.post_meta.messages contains filename -%}
+          {%- assign mother_url = "/messages/" -%}
+        {%- elsif site.data.post_meta.sidequests contains filename -%}
+          {%- assign mother_url = "/sidequests/" -%}
+        {%- endif -%}
         
         <a href="{{ mother_url }}" class="page-title-header" style="color: white; font-family: Impact, 'Arial Black', sans-serif; font-size: 1.5rem; text-transform: uppercase; font-style: normal; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; text-decoration: none; flex-shrink: 1; text-align: right; max-width: 60%; overflow-wrap: break-word; line-height: 1.1;">
           {{ page.title }}
