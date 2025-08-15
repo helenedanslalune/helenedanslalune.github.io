@@ -5,6 +5,35 @@ layout: default
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   document.body.classList.add('home');
+  
+  // Portal entry overlay for first-time visitors
+  if (!localStorage.getItem('hasVisited')) {
+    showPortalOverlay();
+  }
+  
+  function showPortalOverlay() {
+    const overlay = document.createElement('div');
+    overlay.id = 'portal-overlay';
+    overlay.innerHTML = `
+      <div class="portal-background">
+        <div class="portal-content">
+          <div class="portal-title-box" onclick="enterPortal()">
+            <h1 class="portal-title">Hélène dans la lune</h1>
+          </div>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(overlay);
+  }
+  
+  window.enterPortal = function() {
+    localStorage.setItem('hasVisited', 'true');
+    const overlay = document.getElementById('portal-overlay');
+    if (overlay) {
+      overlay.style.opacity = '0';
+      setTimeout(() => overlay.remove(), 500);
+    }
+  }
 });
 </script>
 
