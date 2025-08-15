@@ -84,9 +84,9 @@ body, p, li, .post-content {
 
 /* CSS Custom Properties for cursor URLs */
 :root {
-  --cursor-sparkles: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="4" y="24" font-size="24">✨</text></svg>') 16 16, auto;
-  --cursor-flower: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="10" y="24" font-size="12">🌸</text></svg>') 16 16, auto;
-  --cursor-dancer: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="6" y="24" font-size="20">💃🏻</text></svg>') 16 16, auto;
+  --cursor-sparkles: #{url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="4" y="24" font-size="24">✨</text></svg>')} 16 16, auto;
+  --cursor-flower: #{url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="10" y="24" font-size="12">🌸</text></svg>')} 16 16, auto;
+  --cursor-dancer: #{url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="6" y="24" font-size="20">💃🏻</text></svg>')} 16 16, auto;
 }
 
 /* Default cursor - sparkles for general browsing */
