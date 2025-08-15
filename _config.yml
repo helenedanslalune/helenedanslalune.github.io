@@ -8,6 +8,8 @@ nav:
 exclude: [CLAUDE.md]
 
 footer_links:
+  - name: "GitHub"
+    url: "https://github.com/helenedanslalune"
   - name: "Instagram"
     url: "https://instagram.com/helenedanslalune"
   - name: "Disclaimer"

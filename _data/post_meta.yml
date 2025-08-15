@@ -10,6 +10,7 @@ lists:
  #- 2025-06-09-purchases.md
  - 2025-06-09-takes.md     
  - 2025-08-07-messages.md
+ - 2025-08-14-metathoughts.md
 
 galleries:
  - 2025-06-09-LNs.md
@@ -24,7 +25,8 @@ galleries:
 takes:
  - 2025-06-09-advice.md          
  #- 2025-06-09-hotmen.md  
- - 2025-06-09-boomers.md    
+ - 2025-06-09-boomers.md
+ - 2025-08-14-invariants.md    
 
 messages:
  - 2025-08-07-haters.md
