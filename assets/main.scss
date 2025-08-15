@@ -79,7 +79,17 @@ body, p, li, .post-content {
     1px 1px 0 #fff !important;
 }
 
-/* Background styling with solid slate blue - prevent unwanted scroll */
+/* ===== CUSTOM CURSOR SYSTEM ===== */
+/* Custom emoji cursors for different interactions */
+
+/* CSS Custom Properties for cursor URLs */
+:root {
+  --cursor-sparkles: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="4" y="24" font-size="24">✨</text></svg>') 16 16, auto;
+  --cursor-flower: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="10" y="24" font-size="12">🌸</text></svg>') 16 16, auto;
+  --cursor-dancer: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="6" y="24" font-size="20">💃🏻</text></svg>') 16 16, auto;
+}
+
+/* Default cursor - sparkles for general browsing */
 html, body {
   background-color: var(--slate-blue) !important;
   background-image: none !important;
@@ -89,6 +99,26 @@ html, body {
   padding: 0 !important;
   width: 100% !important;
   max-width: 100% !important;
+  cursor: var(--cursor-sparkles) !important;
+}
+
+/* Interactive elements cursor - delicate flower */
+a:hover:not(.site-title), 
+button:hover, 
+.post-box:hover, 
+.portal-title-box:hover,
+[onclick]:hover, 
+*[role="button"]:hover,
+a:active:not(.site-title), 
+button:active, 
+.post-box:active, 
+.portal-title-box:active {
+  cursor: var(--cursor-flower) !important;
+}
+
+/* Site title special cursor - dancing woman */
+.site-title:hover {
+  cursor: var(--cursor-dancer) !important;
 }
 
 /* Header styling with colors only - keep top, remove bottom */
@@ -331,7 +361,7 @@ body.home .post-box {
   flex-direction: column !important;
   justify-content: center !important;
   align-items: center !important;
-  cursor: pointer !important;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="6" y="24" font-size="20">🌸</text></svg>') 16 16, auto !important;
 }
 
 /* Dynamic color rotation - automatically handles any number of colors */
@@ -519,7 +549,7 @@ a.post-box .post-box-link {
   color: var(--banana-yellow);
   font-size: 120px;
   font-weight: bold;
-  cursor: pointer;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="6" y="24" font-size="20">🌸</text></svg>') 16 16, auto;
   background: transparent;
   border: none;
   width: 180px;
@@ -558,7 +588,7 @@ a.post-box .post-box-link {
   font-weight: bold;
   width: 200px;
   height: 200px;
-  cursor: pointer;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="6" y="24" font-size="20">🌸</text></svg>') 16 16, auto;
   transition: all 0.3s ease;
   display: flex;
   align-items: center;
@@ -604,7 +634,7 @@ a.post-box .post-box-link {
 
 /* Make gallery images clickable */
 .image-gallery img {
-  cursor: pointer;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="6" y="24" font-size="20">🌸</text></svg>') 16 16, auto;
   transition: transform 0.2s;
 }
 
@@ -941,7 +971,7 @@ body > *,
   display: flex;
   justify-content: center;
   align-items: center;
-  cursor: pointer;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><text x="6" y="24" font-size="20">🌸</text></svg>') 16 16, auto;
   transition: all 0.3s ease;
 }
 
