@@ -2,10 +2,8 @@ title: Hélène dans la lune
 theme: minima
 permalink: pretty
 future: true
-nav:
- - title: Home
-   url: /
-exclude: [CLAUDE.md]
+header_pages: []
+exclude: []
 
 footer_links:
   - name: "GitHub"
@@ -14,4 +12,3 @@ footer_links:
     url: "https://instagram.com/helenedanslalune"
   - name: "Disclaimer"
     url: "/disclaimer/"
-

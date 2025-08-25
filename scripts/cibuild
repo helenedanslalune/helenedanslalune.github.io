@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -e
+
+echo "Building Jekyll site..."
+bundle exec jekyll build
+
+echo "Running HTMLProofer..."
+bundle exec htmlproofer ./_site --disable-external
+
+echo "CI build completed successfully!"
