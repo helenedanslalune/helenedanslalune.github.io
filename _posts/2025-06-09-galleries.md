@@ -3,6 +3,7 @@ layout: post
 title: Hélène's Galleries
 date: 2025-06-09
 permalink: /galleries/
+published: true
 ---
 
 <div class="post-grid">

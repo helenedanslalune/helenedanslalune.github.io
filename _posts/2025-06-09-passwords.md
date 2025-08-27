@@ -4,6 +4,7 @@ title: Hélène's Suggestion Of Passwords
 subtitle: That You Could Use For Your Main Bank Account Maybe
 date: 2025-06-09
 permalink: /passwords/
+published: true
 ---
 
 <div id="password-container"></div>

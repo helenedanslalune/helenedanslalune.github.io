@@ -1,6 +1,7 @@
 ---
 layout: minimal
 title: Hélène Colinet
+published: true
 ---
 
 
