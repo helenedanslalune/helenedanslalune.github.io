@@ -8,118 +8,68 @@
     {% endif %}
   {% endfor %}
   {% for image in gallery_images %}
-    <img src="{{ image.path | relative_url }}" alt="Gallery image" style="max-width: 300px; margin: 10px;" onclick="openLightbox('{{ image.path | relative_url }}', {{ forloop.index0 }})" data-index="{{ forloop.index0 }}" />
+    <img src="{{ image.path | relative_url }}" alt="{{ image.name | default: 'Gallery image' }}" style="max-width: 300px; margin: 10px; cursor: pointer;" data-index="{{ forloop.index0 }}" tabindex="0" />
   {% endfor %}
 </div>
 
-<!-- Lightbox -->
 <div id="lightbox" class="lightbox">
-  <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
-  <button class="lightbox-nav prev" onclick="prevImage()">&lsaquo;</button>
-  <button class="lightbox-nav next" onclick="nextImage()">&rsaquo;</button>
-  <img class="lightbox-content" id="lightbox-img" />
+  <button id="lightbox-close" class="lightbox-close" aria-label="Close">&times;</button>
+  <button id="lightbox-prev" class="lightbox-nav prev" aria-label="Previous">&lsaquo;</button>
+  <button id="lightbox-next" class="lightbox-nav next" aria-label="Next">&rsaquo;</button>
+  <img id="lightbox-img" class="lightbox-content" src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'/%3E" alt="" />
 </div>
 
 <script>
-let currentImageIndex = 0;
-let galleryImages = [];
-
-function initializeGallery() {
-  // Collect all gallery images
-  const imgs = document.querySelectorAll('.image-gallery img');
-  galleryImages = Array.from(imgs).map(img => ({
-    src: img.src,
-    index: parseInt(img.dataset.index)
-  }));
-}
-
-function openLightbox(src, index) {
+(function() {
+  let index = 0;
+  let images = [];
   const lightbox = document.getElementById('lightbox');
   const img = document.getElementById('lightbox-img');
-  
-  currentImageIndex = index;
-  
-  // Show lightbox and set image
-  lightbox.style.display = 'block';
-  img.src = src;
-  
-  // Update navigation buttons
-  updateNavButtons();
-  
-  // Trigger animation after a small delay
-  setTimeout(() => {
-    lightbox.classList.add('show');
-  }, 10);
-}
 
-function closeLightbox() {
-  const lightbox = document.getElementById('lightbox');
-  
-  // Remove show class for exit animation
-  lightbox.classList.remove('show');
-  
-  // Hide lightbox after animation completes
-  setTimeout(() => {
-    lightbox.style.display = 'none';
-  }, 300);
-}
-
-function prevImage() {
-  if (currentImageIndex > 0) {
-    currentImageIndex--;
-    changeImage();
-  }
-}
-
-function nextImage() {
-  if (currentImageIndex < galleryImages.length - 1) {
-    currentImageIndex++;
-    changeImage();
-  }
-}
-
-function changeImage() {
-  const img = document.getElementById('lightbox-img');
-  
-  // Simple image change
-  img.src = galleryImages[currentImageIndex].src;
-  updateNavButtons();
-}
-
-function updateNavButtons() {
-  const prevBtn = document.querySelector('.lightbox-nav.prev');
-  const nextBtn = document.querySelector('.lightbox-nav.next');
-  
-  prevBtn.disabled = currentImageIndex === 0;
-  nextBtn.disabled = currentImageIndex === galleryImages.length - 1;
-}
-
-// Initialize gallery when DOM is loaded
-document.addEventListener('DOMContentLoaded', initializeGallery);
-
-// Keyboard navigation
-document.addEventListener('keydown', function(event) {
-  if (document.getElementById('lightbox').style.display === 'block') {
-    switch(event.key) {
-      case 'Escape':
-        closeLightbox();
-        break;
-      case 'ArrowLeft':
-        prevImage();
-        break;
-      case 'ArrowRight':
-        nextImage();
-        break;
-    }
-  }
-});
-
-// Prevent lightbox from closing when clicking the image itself
-document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('lightbox').addEventListener('click', function(e) {
-    if (e.target === this) {
-      closeLightbox();
-    }
+  // Initialize
+  document.querySelectorAll('.image-gallery img').forEach((el, i) => {
+    images.push(el.src);
+    el.onclick = () => open(i);
+    el.onkeydown = e => (e.key === 'Enter' || e.key === ' ') && open(i);
   });
-});
+
+  document.getElementById('lightbox-close').onclick = close;
+  document.getElementById('lightbox-prev').onclick = () => nav(-1);
+  document.getElementById('lightbox-next').onclick = () => nav(1);
+  lightbox.onclick = e => e.target === lightbox && close();
+
+  document.onkeydown = e => {
+    if (lightbox.style.display !== 'block') return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowLeft') nav(-1);
+    if (e.key === 'ArrowRight') nav(1);
+  };
+
+  function open(i) {
+    index = i;
+    img.src = images[i];
+    lightbox.style.display = 'block';
+    setTimeout(() => lightbox.classList.add('show'), 10);
+    updateNav();
+  }
+
+  function close() {
+    lightbox.classList.remove('show');
+    setTimeout(() => lightbox.style.display = 'none', 300);
+  }
+
+  function nav(dir) {
+    const newIndex = index + dir;
+    if (newIndex >= 0 && newIndex < images.length) {
+      index = newIndex;
+      img.src = images[index];
+      updateNav();
+    }
+  }
+
+  function updateNav() {
+    document.getElementById('lightbox-prev').disabled = index === 0;
+    document.getElementById('lightbox-next').disabled = index === images.length - 1;
+  }
+})();
 </script>
