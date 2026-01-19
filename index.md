@@ -7,6 +7,23 @@ published: true
 <canvas id="trajectory-canvas"></canvas>
 <div id="trajectory-ball"></div>
 
+<div id="menu-arrow">
+  <img src="/assets/images/arrow.png" alt="Menu">
+</div>
+
+<div id="menu-container">
+  <img src="/assets/images/line.png" alt="" class="menu-line">
+  <div class="menu-items">
+    <a href="/assets/CV.pdf" target="_blank">
+      <img src="/assets/images/cv.png" alt="CV" class="menu-item menu-cv">
+    </a>
+    <a href="https://github.com/helenedanslalune" target="_blank">
+      <img src="/assets/images/github.png" alt="GitHub" class="menu-item menu-github">
+    </a>
+  </div>
+  <img src="/assets/images/line.png" alt="" class="menu-line">
+</div>
+
 <div class="handwriting-container">
   <div class="hi-centered">
     <img src="/assets/images/left.png" alt="Left" class="handwriting-left">
@@ -20,8 +37,8 @@ published: true
   </div>
   <div class="physics-line">
     <img src="/assets/images/imaphysicist.png" alt="I'm a physicist" class="handwriting-physics">
-    <img src="/assets/images/consulting.png" alt="consulting" class="handwriting-consulting">
-    <img src="/assets/images/onfinancialsystems.png" alt="Financial Systems" class="handwriting-financial">
+    <img src="/assets/images/specializingin.png" alt="specializing in" class="handwriting-consulting">
+    <img src="/assets/images/complexsystems.png" alt="complex systems" class="handwriting-financial">
     <img src="/assets/images/hright.png" alt="HRight" class="handwriting-hright">
   </div>
   <div class="interested-line">
@@ -217,5 +234,22 @@ published: true
   }
 
   loadData();
+})();
+
+// Menu toggle
+(function() {
+  const arrow = document.getElementById('menu-arrow');
+  const menu = document.getElementById('menu-container');
+
+  arrow.addEventListener('click', function() {
+    menu.classList.toggle('open');
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener('click', function(event) {
+    if (!arrow.contains(event.target) && !menu.contains(event.target)) {
+      menu.classList.remove('open');
+    }
+  });
 })();
 </script>

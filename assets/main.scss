@@ -23,26 +23,29 @@
   --time-name: 2.2s;
 
   /* Physics line */
-  --time-physicist: 4.2s;
+  --time-physicist: 4.4s;
   --time-consulting: 5.7s;
   --time-financial: 5.7s;
-  --time-hright: 7.5s;
+  --time-hright: 7.3s;
 
   /* Trajectory animation */
-  --time-trajectory: 3.2s;
+  --time-trajectory: 3s;
 
   /* Interested line */
-  --time-interested: 9s;
+  --time-interested: 8s;
 
   /* Interests list */
-  --time-smallthings: 10.7s;
-  --time-continuous: 12.5s;
-  --time-scales: 13.2s;
-  --time-emergence: 14.2s;
-  --time-limits: 15.4s;
+  --time-smallthings: 9s;
+  --time-continuous: 10.3s;
+  --time-scales: 11s;
+  --time-emergence: 11.8s;
+  --time-limits: 12.6s;
 
   /* Contact */
-  --time-contact: 17.2s;
+  --time-contact: 14.1s;
+
+  /* Menu arrow */
+  --time-menu-arrow: 14.1s;
 }
 
 /* Custom cursor */
@@ -202,6 +205,30 @@ a:hover {
   50% { opacity: 0; }
 }
 
+@keyframes fadeInAndBlink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  60% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.2;
+  }
+  85% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 @keyframes swoopInFromCenterLeft {
   from {
     transform: translateX(150px) scale(0);
@@ -303,6 +330,74 @@ a:hover {
   pointer-events: none;
 }
 
+/* Menu arrow and container */
+#menu-arrow {
+  position: fixed;
+  left: 55px;
+  top: 45%;
+  transform: translateY(-50%);
+  z-index: 100;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  opacity: 0;
+  animation: fadeInAndBlink 1.2s ease-in-out var(--time-menu-arrow) forwards;
+}
+
+#menu-arrow:hover {
+  transform: translateY(-50%) scale(1.1);
+}
+
+#menu-arrow img {
+  width: 31px;
+  height: auto;
+  display: block;
+}
+
+#menu-container {
+  position: fixed;
+  left: -300px;
+  top: 45%;
+  transform: translateY(-50%);
+  width: 250px;
+  padding: 20px;
+  z-index: 99;
+  transition: left 0.4s ease;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#menu-container.open {
+  left: 90px;
+}
+
+#menu-container .menu-item {
+  display: block;
+  width: 60px;
+  height: auto;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+#menu-container .menu-item:hover {
+  transform: scale(1.05);
+}
+
+#menu-container .menu-github {
+  width: 75px;
+}
+
+.menu-line {
+  height: 120px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+}
+
 /* Handwriting name */
 .handwriting-container {
   padding: 0 20px 40px 20px;
@@ -400,7 +495,7 @@ a:hover {
 }
 
 .handwriting-consulting {
-  max-width: 144px;
+  max-width: 250px;
   height: auto;
   margin: 0 1px 0 0 !important;
   display: inline-block;
@@ -410,7 +505,7 @@ a:hover {
 }
 
 .handwriting-financial {
-  max-width: 360px;
+  max-width: 260px;
   height: auto;
   margin: 0 1px 0 0 !important;
   display: inline-block;
