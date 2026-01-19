@@ -17,35 +17,34 @@
 /* Animation Timeline - All animation start times in one place */
 :root {
   /* Opening sequence */
-  --time-hi-centered: 0.7s;
-  --time-left-right: 0.9s;
-  --time-2left-2right: 2s;
-  --time-name: 2.2s;
+  --time-hi-centered: 0.5s;
+  --time-left-right: 0.7s;
+  --time-name: 0.7s;
 
   /* Physics line */
-  --time-physicist: 4.4s;
-  --time-consulting: 5.7s;
-  --time-financial: 5.7s;
-  --time-hright: 7.3s;
+  --time-physicist: 2.5s;
+  --time-consulting: 3.6s;
+  --time-financial: 3.6s;
+  --time-hright: 5.1s;
 
   /* Trajectory animation */
-  --time-trajectory: 3s;
+  --time-trajectory: 1.5s;
 
   /* Interested line */
-  --time-interested: 8s;
+  --time-interested: 6s;
 
   /* Interests list */
-  --time-smallthings: 9s;
-  --time-continuous: 10.3s;
-  --time-scales: 11s;
-  --time-emergence: 11.8s;
-  --time-limits: 12.6s;
+  --time-smallthings: 6.5s;
+  --time-continuous: 6.5s;
+  --time-scales: 6.5s;
+  --time-emergence: 6.5s;
+  --time-limits: 6.5s;
 
   /* Contact */
-  --time-contact: 14.1s;
+  --time-contact: 8s;
 
   /* Menu arrow */
-  --time-menu-arrow: 14.1s;
+  --time-menu-arrow: 8s;
 }
 
 /* Custom cursor */
@@ -178,33 +177,6 @@ a:hover {
   }
 }
 
-@keyframes rotateInLeft {
-  from {
-    opacity: 0;
-    transform: scale(0.2) rotate(1080deg);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1) rotate(0deg);
-  }
-}
-
-@keyframes rotateInRight {
-  from {
-    opacity: 0;
-    transform: scale(0.2) rotate(-1080deg);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1) rotate(0deg);
-  }
-}
-
-@keyframes blink {
-  0%, 100% { opacity: 1; }
-  50% { opacity: 0; }
-}
-
 @keyframes fadeInAndBlink {
   0% {
     opacity: 0;
@@ -247,17 +219,6 @@ a:hover {
   }
   to {
     transform: translateX(0) scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes scaleDown {
-  from {
-    transform: scale(200);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1);
     opacity: 1;
   }
 }
@@ -339,8 +300,15 @@ a:hover {
   z-index: 100;
   cursor: pointer;
   transition: transform 0.3s ease;
-  opacity: 0;
+}
+
+body.first-visit #menu-arrow {
   animation: fadeInAndBlink 1.2s ease-in-out var(--time-menu-arrow) forwards;
+  opacity: 0;
+}
+
+body:not(.first-visit) #menu-arrow {
+  opacity: 1;
 }
 
 #menu-arrow:hover {
@@ -358,7 +326,6 @@ a:hover {
   left: -300px;
   top: 45%;
   transform: translateY(-50%);
-  width: 250px;
   padding: 20px;
   z-index: 99;
   transition: left 0.4s ease;
@@ -373,7 +340,7 @@ a:hover {
 
 #menu-container .menu-item {
   display: block;
-  width: 60px;
+  width: 51px;
   height: auto;
   margin-bottom: 20px;
   transition: transform 0.2s ease;
@@ -384,11 +351,23 @@ a:hover {
 }
 
 #menu-container .menu-github {
-  width: 75px;
+  width: 64px;
+}
+
+#menu-container .menu-publications {
+  width: 102px;
+}
+
+#menu-container .menu-blog {
+  width: 47px;
+}
+
+#menu-container .menu-projects {
+  width: 71px;
 }
 
 .menu-line {
-  height: 120px;
+  height: 255px;
   width: auto;
   flex-shrink: 0;
 }
@@ -396,6 +375,7 @@ a:hover {
 .menu-items {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 /* Handwriting name */
@@ -407,25 +387,66 @@ a:hover {
   overflow: visible !important;
 }
 
-.hi-centered {
-  text-align: center;
-  width: 100%;
-  margin-bottom: 20px;
+/* Opening block - first two lines together */
+.opening-block {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
+  margin-bottom: 20px;
+  padding: 15px 0;
+}
+
+body:not(.first-visit) .opening-block {
+  opacity: 1;
+}
+
+body.first-visit .opening-block {
   animation: fadeIn 1s ease-out var(--time-hi-centered) forwards;
   opacity: 0;
 }
 
-.handwriting-left {
-  max-width: 36px;
+.opening-left {
+  max-width: 40px;
   height: auto;
-  display: inline-block;
+  flex-shrink: 0;
+}
+
+body.first-visit .opening-left {
   animation: revealFromCenter 0.8s ease-in-out var(--time-left-right) forwards;
   clip-path: inset(0 0 0 100%);
   opacity: 0.5;
+}
+
+body:not(.first-visit) .opening-left {
+  opacity: 1;
+}
+
+.opening-right {
+  max-width: 40px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+body.first-visit .opening-right {
+  animation: revealFromCenterRight 0.8s ease-in-out var(--time-left-right) forwards;
+  clip-path: inset(0 100% 0 0);
+  opacity: 0.5;
+}
+
+body:not(.first-visit) .opening-right {
+  opacity: 1;
+}
+
+.opening-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.hi-centered {
+  text-align: center;
 }
 
 .handwriting-hi {
@@ -434,48 +455,23 @@ a:hover {
   display: inline-block;
 }
 
-.handwriting-right {
-  max-width: 36px;
-  height: auto;
-  display: inline-block;
-  animation: revealFromCenterRight 0.8s ease-in-out var(--time-left-right) forwards;
-  clip-path: inset(0 100% 0 0);
-  opacity: 0.5;
-}
-
-
 .name-line {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  margin-top: 0;
-}
-
-.handwriting-2left {
-  max-width: 36px;
-  height: auto;
-  display: inline-block;
-  animation: rotateInLeft 0.8s linear var(--time-2left-2right) forwards;
-  opacity: 0;
-  transform: scale(0.2) rotate(1080deg);
+  text-align: center;
 }
 
 .handwriting-name {
   max-width: 260px;
   height: auto;
   margin: 0 !important;
+}
+
+body.first-visit .handwriting-name {
   animation: fadeIn 0.3s ease-out var(--time-name) forwards;
   opacity: 0;
 }
 
-.handwriting-2right {
-  max-width: 36px;
-  height: auto;
-  display: inline-block;
-  animation: rotateInRight 0.8s linear var(--time-2left-2right) forwards;
-  opacity: 0;
-  transform: scale(0.2) rotate(-1080deg);
+body:not(.first-visit) .handwriting-name {
+  opacity: 1;
 }
 
 .physics-line {
@@ -490,8 +486,15 @@ a:hover {
   margin: 0 1px 0 0 !important;
   display: inline-block;
   vertical-align: middle;
+}
+
+body.first-visit .handwriting-physics {
   animation: fadeIn 1s ease-out var(--time-physicist) forwards;
   opacity: 0;
+}
+
+body:not(.first-visit) .handwriting-physics {
+  opacity: 1;
 }
 
 .handwriting-consulting {
@@ -500,8 +503,15 @@ a:hover {
   margin: 0 1px 0 0 !important;
   display: inline-block;
   vertical-align: middle;
+}
+
+body.first-visit .handwriting-consulting {
   animation: fadeIn 1s ease-out var(--time-consulting) forwards;
   opacity: 0;
+}
+
+body:not(.first-visit) .handwriting-consulting {
+  opacity: 1;
 }
 
 .handwriting-financial {
@@ -510,8 +520,15 @@ a:hover {
   margin: 0 1px 0 0 !important;
   display: inline-block;
   vertical-align: middle;
+}
+
+body.first-visit .handwriting-financial {
   animation: fadeIn 1s ease-out var(--time-financial) forwards;
   opacity: 0;
+}
+
+body:not(.first-visit) .handwriting-financial {
+  opacity: 1;
 }
 
 .handwriting-hright {
@@ -519,8 +536,15 @@ a:hover {
   height: auto;
   display: inline-block;
   vertical-align: middle;
+}
+
+body.first-visit .handwriting-hright {
   animation: fadeIn 1s ease-out var(--time-hright) forwards;
   opacity: 0;
+}
+
+body:not(.first-visit) .handwriting-hright {
+  opacity: 1;
 }
 
 .interested-line {
@@ -541,9 +565,16 @@ a:hover {
   height: auto;
   display: inline-block;
   vertical-align: middle;
+}
+
+body.first-visit .handwriting-3left {
   animation: swoopInFromCenterLeft 1s ease-out var(--time-interested) forwards;
   transform: translateX(150px) scale(0);
   opacity: 0;
+}
+
+body:not(.first-visit) .handwriting-3left {
+  opacity: 1;
 }
 
 .handwriting-interested {
@@ -552,8 +583,15 @@ a:hover {
   margin: 0 1px 0 0 !important;
   display: inline-block;
   vertical-align: middle;
+}
+
+body.first-visit .handwriting-interested {
   animation: fadeIn 1s ease-out var(--time-interested) forwards;
   opacity: 0;
+}
+
+body:not(.first-visit) .handwriting-interested {
+  opacity: 1;
 }
 
 .handwriting-3right {
@@ -561,9 +599,16 @@ a:hover {
   height: auto;
   display: inline-block;
   vertical-align: middle;
+}
+
+body.first-visit .handwriting-3right {
   animation: swoopInFromCenterRight 1s ease-out var(--time-interested) forwards;
   transform: translateX(-150px) scale(0);
   opacity: 0;
+}
+
+body:not(.first-visit) .handwriting-3right {
+  opacity: 1;
 }
 
 .handwriting-smallthings {
@@ -572,10 +617,16 @@ a:hover {
   margin: 0 1px 0 0 !important;
   display: inline-block;
   vertical-align: middle;
-  animation: scaleDown 1.2s ease-out var(--time-smallthings) forwards;
-  transform: scale(200);
-  transform-origin: 52% center;
+}
+
+body.first-visit .handwriting-smallthings {
+  animation: popOvershoot 0.8s ease-out var(--time-smallthings) forwards;
+  transform: scale(0);
   opacity: 0;
+}
+
+body:not(.first-visit) .handwriting-smallthings {
+  opacity: 1;
 }
 
 .handwriting-continuous {
@@ -584,8 +635,15 @@ a:hover {
   margin: 0 1px 0 0 !important;
   display: inline-block;
   vertical-align: middle;
+}
+
+body.first-visit .handwriting-continuous {
   animation: wobble 1s ease-in-out var(--time-continuous) forwards;
   opacity: 0;
+}
+
+body:not(.first-visit) .handwriting-continuous {
+  opacity: 1;
 }
 
 .handwriting-scales {
@@ -594,9 +652,16 @@ a:hover {
   margin: 0 1px 0 0 !important;
   display: inline-block;
   vertical-align: middle;
+}
+
+body.first-visit .handwriting-scales {
   animation: popOvershoot 0.8s ease-out var(--time-scales) forwards;
   transform: scale(0);
   opacity: 0;
+}
+
+body:not(.first-visit) .handwriting-scales {
+  opacity: 1;
 }
 
 .handwriting-emergence {
@@ -605,7 +670,10 @@ a:hover {
   margin: 0 1px 0 0 !important;
   display: inline-block;
   vertical-align: middle;
-  opacity: 0;
+}
+
+body:not(.first-visit) .handwriting-emergence {
+  opacity: 1;
 }
 
 .handwriting-limits {
@@ -614,8 +682,15 @@ a:hover {
   margin: 0 !important;
   display: inline-block;
   vertical-align: middle;
+}
+
+body.first-visit .handwriting-limits {
   animation: revealLeftToRight 1.2s ease-out var(--time-limits) forwards;
   clip-path: inset(0 100% 0 0);
+  opacity: 1;
+}
+
+body:not(.first-visit) .handwriting-limits {
   opacity: 1;
 }
 
@@ -623,8 +698,15 @@ a:hover {
   margin-top: 50px;
   display: block;
   text-align: center;
+}
+
+body.first-visit .contact-line {
   animation: fadeIn 1s ease-out var(--time-contact) forwards;
   opacity: 0;
+}
+
+body:not(.first-visit) .contact-line {
+  opacity: 1;
 }
 
 .handwriting-contact {
@@ -641,4 +723,134 @@ a:hover {
   margin: 0 !important;
   display: inline-block;
   vertical-align: middle;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  /* Fade background when menu is open */
+  body.menu-open .handwriting-container,
+  body.menu-open #trajectory-canvas,
+  body.menu-open #trajectory-ball {
+    opacity: 0.2;
+    transition: opacity 0.3s ease;
+  }
+
+  .handwriting-container {
+    padding: 0 10px 20px 10px;
+  }
+
+  .opening-block {
+    gap: 15px;
+  }
+
+  .opening-left,
+  .opening-right {
+    max-width: 25px;
+  }
+
+  .handwriting-hi {
+    max-width: 50px;
+  }
+
+  .handwriting-name {
+    max-width: 180px;
+  }
+
+  .handwriting-physics {
+    max-width: 200px;
+  }
+
+  .handwriting-consulting {
+    max-width: 175px;
+  }
+
+  .handwriting-financial {
+    max-width: 180px;
+  }
+
+  .handwriting-hright {
+    max-width: 38px;
+  }
+
+  .handwriting-3left,
+  .handwriting-3right {
+    max-width: 15px;
+  }
+
+  .handwriting-interested {
+    max-width: 220px;
+  }
+
+  .handwriting-smallthings {
+    max-width: 60px;
+  }
+
+  .handwriting-continuous {
+    max-width: 165px;
+  }
+
+  .handwriting-scales {
+    max-width: 60px;
+  }
+
+  .handwriting-emergence {
+    max-width: 125px;
+  }
+
+  .handwriting-limits {
+    max-width: 150px;
+  }
+
+  .handwriting-contact {
+    max-width: 250px;
+  }
+
+  .handwriting-email {
+    max-width: 250px;
+  }
+
+  .contact-line {
+    margin-top: 30px;
+  }
+
+  #trajectory-ball {
+    width: 40px;
+    height: 40px;
+  }
+
+  #menu-arrow {
+    left: 30px;
+  }
+
+  #menu-arrow img {
+    width: 25px;
+  }
+
+  #menu-container.open {
+    left: 60px;
+  }
+
+  #menu-container .menu-item {
+    width: 38px;
+  }
+
+  #menu-container .menu-github {
+    width: 48px;
+  }
+
+  #menu-container .menu-publications {
+    width: 76px;
+  }
+
+  #menu-container .menu-blog {
+    width: 35px;
+  }
+
+  #menu-container .menu-projects {
+    width: 53px;
+  }
+
+  .menu-line {
+    height: 190px;
+  }
 }

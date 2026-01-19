@@ -20,20 +20,31 @@ published: true
     <a href="https://github.com/helenedanslalune" target="_blank">
       <img src="/assets/images/github.png" alt="GitHub" class="menu-item menu-github">
     </a>
+    <a href="/publications">
+      <img src="/assets/images/publications.png" alt="Publications" class="menu-item menu-publications">
+    </a>
+    <a href="/blog">
+      <img src="/assets/images/blog.png" alt="Blog" class="menu-item menu-blog">
+    </a>
+    <a href="/projects">
+      <img src="/assets/images/projects.png" alt="Projects" class="menu-item menu-projects">
+    </a>
   </div>
-  <img src="/assets/images/line.png" alt="" class="menu-line">
+  <img src="/assets/images/line2.png" alt="" class="menu-line">
 </div>
 
 <div class="handwriting-container">
-  <div class="hi-centered">
-    <img src="/assets/images/left.png" alt="Left" class="handwriting-left">
-    <img src="/assets/images/hi.png" alt="Hi" class="handwriting-hi">
-    <img src="/assets/images/right.png" alt="Right" class="handwriting-right">
-  </div>
-  <div class="name-line">
-    <img src="/assets/images/2left.png" alt="2Left" class="handwriting-2left">
-    <img src="/assets/images/imhelene.png" alt="I'm Hélène" class="handwriting-name">
-    <img src="/assets/images/2right.png" alt="2Right" class="handwriting-2right">
+  <div class="opening-block">
+    <img src="/assets/images/left.png" alt="Left" class="opening-left">
+    <div class="opening-content">
+      <div class="hi-centered">
+        <img src="/assets/images/hi.png" alt="Hi" class="handwriting-hi">
+      </div>
+      <div class="name-line">
+        <img src="/assets/images/imhelene.png" alt="I'm Hélène" class="handwriting-name">
+      </div>
+    </div>
+    <img src="/assets/images/right.png" alt="Right" class="opening-right">
   </div>
   <div class="physics-line">
     <img src="/assets/images/imaphysicist.png" alt="I'm a physicist" class="handwriting-physics">
@@ -55,15 +66,42 @@ published: true
   </div>
   <div class="contact-line">
     <img src="/assets/images/contact.png" alt="Contact" class="handwriting-contact">
-    <img src="/assets/images/email.png" alt="Email" class="handwriting-email">
+    <a href="mailto:hello@helenecoli.net">
+      <img src="/assets/images/email.png" alt="Email" class="handwriting-email">
+    </a>
   </div>
 </div>
 
 <script>
+// First visit detection (must run first)
+(function() {
+  const hasVisited = localStorage.getItem('hasVisited');
+
+  if (!hasVisited) {
+    document.body.classList.add('first-visit');
+    localStorage.setItem('hasVisited', 'true');
+  }
+})();
+
 (function() {
   const canvas = document.getElementById('emergence-canvas');
   const ctx = canvas.getContext('2d');
   const img = new Image();
+
+  // Only animate on first visit
+  const isFirstVisit = document.body.classList.contains('first-visit');
+
+  if (!isFirstVisit) {
+    // Show immediately without animation
+    canvas.style.opacity = '1';
+    img.onload = function() {
+      canvas.width = img.width;
+      canvas.height = img.height;
+      ctx.drawImage(img, 0, 0);
+    };
+    img.src = '/assets/images/emergence.png';
+    return;
+  }
 
   // Read timing from CSS variable
   const emergenceTime = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--time-emergence')) * 1000;
@@ -119,6 +157,46 @@ published: true
 })();
 
 (function() {
+  // Only animate on first visit
+  const isFirstVisit = document.body.classList.contains('first-visit');
+
+  const canvasWidth = window.innerWidth * 0.95;
+  const trajectoryHeight = window.innerHeight * 0.35;
+  const startX = window.innerWidth * -0.05;
+  const startY = window.innerHeight * 0.15;
+
+  const canvas = document.getElementById('trajectory-canvas');
+  const ball = document.getElementById('trajectory-ball');
+
+  if (!isFirstVisit) {
+    // Hide trajectory canvas but show ball at final position on return visits
+    canvas.style.display = 'none';
+
+    async function positionBall() {
+      const response = await fetch('fullpot.csv');
+      const text = await response.text();
+      const lines = text.trim().split('\n');
+
+      const trajectoryData = [];
+      for (let i = 0; i < lines.length; i += 2) {
+        const value = parseFloat(lines[i].trim());
+        if (!isNaN(value)) trajectoryData.push(value);
+      }
+
+      // Position ball at end of trajectory
+      const lastValue = trajectoryData[trajectoryData.length - 1];
+      const normalizedY = (lastValue - 9) / (35 - 9);
+      const finalX = startX + canvasWidth;
+      const finalY = startY + (1 - normalizedY) * trajectoryHeight;
+
+      ball.style.left = (finalX - 30) + 'px';
+      ball.style.top = (finalY - 30) + 'px';
+    }
+
+    positionBall();
+    return;
+  }
+
   let trajectoryData = [];
   let trajectoryPoints = [];
   let animationStartTime = null;
@@ -127,16 +205,10 @@ published: true
   // Read timing from CSS variable
   const trajectoryTime = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--time-trajectory')) * 1000;
 
-  const animationDuration = 4500; // 3.75 seconds total animation time
+  const animationDuration = 3800; // 3.75 seconds total animation time
   const fadeOutDuration = 1000; // 1 second fade out
-  const canvasWidth = window.innerWidth * 0.95;
-  const trajectoryHeight = window.innerHeight * 0.35;
-  const startX = window.innerWidth * -0.05;
-  const startY = window.innerHeight * 0.15;
 
-  const canvas = document.getElementById('trajectory-canvas');
   const ctx = canvas.getContext('2d');
-  const ball = document.getElementById('trajectory-ball');
 
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
@@ -240,15 +312,19 @@ published: true
 (function() {
   const arrow = document.getElementById('menu-arrow');
   const menu = document.getElementById('menu-container');
+  const body = document.body;
 
-  arrow.addEventListener('click', function() {
+  arrow.addEventListener('click', function(event) {
+    event.stopPropagation();
     menu.classList.toggle('open');
+    body.classList.toggle('menu-open');
   });
 
   // Close menu when clicking outside
   document.addEventListener('click', function(event) {
-    if (!arrow.contains(event.target) && !menu.contains(event.target)) {
+    if (!menu.contains(event.target)) {
       menu.classList.remove('open');
+      body.classList.remove('menu-open');
     }
   });
 })();
