@@ -17,7 +17,7 @@ published: true
     <a href="/assets/CV.pdf" target="_blank">
       <img src="/assets/images/cv.png" alt="CV" class="menu-item menu-cv">
     </a>
-    <a href="https://github.com/helenedanslalune" target="_blank">
+    <a href="https://github.com/haemc" target="_blank">
       <img src="/assets/images/github.png" alt="GitHub" class="menu-item menu-github">
     </a>
     <a href="/publications">
